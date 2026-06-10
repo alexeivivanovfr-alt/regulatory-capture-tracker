@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regulatory Capture Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0f; --bg2: #0f0f1a; --bg3: #141420;
+  --border: #1e1e2e; --red: #ff2d2d; --red-dim: #ff2d2d20;
+  --yellow: #ffd60a; --yellow-dim: #ffd60a20; --green: #00ff88;
+  --text: #e8e8f0; --text-dim: #6b6b80; --accent: #4040ff;
+  --mono: 'IBM Plex Mono', monospace; --sans: 'IBM Plex Sans', sans-serif;
+  --display: 'Playfair Display', serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 14px; line-height: 1.6; min-height: 100vh; }
+
+header { border-bottom: 1px solid var(--border); padding: 0 32px; display: flex; align-items: center; justify-content: space-between; height: 64px; position: sticky; top: 0; background: var(--bg); z-index: 100; }
+.logo { font-family: var(--display); font-size: 18px; font-weight: 700; }
+.logo span { color: var(--red); }
+nav { display: flex; gap: 24px; }
+nav a { color: var(--text-dim); text-decoration: none; font-family: var(--mono); font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; cursor: pointer; transition: color 0.2s; }
+nav a:hover, nav a.active { color: var(--text); }
+
+.stats-bar { display: grid; grid-template-columns: repeat(5, 1fr); border-bottom: 1px solid var(--border); }
+.stat { padding: 24px 32px; border-right: 1px solid var(--border); }
+.stat:last-child { border-right: none; }
+.stat-value { font-family: var(--mono); font-size: 28px; font-weight: 500; display: block; }
+.stat-label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px; }
+
+/* FILTER BAR — vertical stack */
+.filter-bar { border-bottom: 1px solid var(--border); }
+.filter-row { display: flex; align-items: center; border-bottom: 1px solid var(--border); min-height: 44px; }
+.filter-row:last-child { border-bottom: none; }
+.filter-row-label { font-family: var(--mono); font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; width: 140px; flex-shrink: 0; padding: 0 20px 0 32px; border-right: 1px solid var(--border); align-self: stretch; display: flex; align-items: center; }
+.filter-row-controls { display: flex; align-items: center; padding: 0 16px; gap: 6px; flex: 1; }
+.fchip { padding: 5px 12px; background: transparent; border: 1px solid var(--border); color: var(--text-dim); font-family: var(--mono); font-size: 11px; cursor: pointer; border-radius: 3px; transition: all 0.15s; white-space: nowrap; }
+.fchip:hover { color: var(--text); border-color: var(--text-dim); }
+.fchip.on { color: var(--text); border-color: var(--accent); background: var(--bg3); }
+.fchip.on-red { color: var(--red); border-color: var(--red); background: var(--red-dim); }
+.fchip.on-yellow { color: var(--yellow); border-color: var(--yellow); background: var(--yellow-dim); }
+select.fselect { background: var(--bg3); border: 1px solid var(--border); color: var(--text); font-family: var(--mono); font-size: 12px; padding: 6px 10px; border-radius: 3px; outline: none; cursor: pointer; max-width: 280px; }
+select.fselect option { background: var(--bg2); }
+
+.search-bar { padding: 16px 32px; border-bottom: 1px solid var(--border); display: flex; gap: 12px; align-items: center; }
+.search-input { flex: 1; background: var(--bg3); border: 1px solid var(--border); color: var(--text); padding: 10px 16px; font-family: var(--mono); font-size: 13px; border-radius: 4px; outline: none; }
+.search-input:focus { border-color: var(--accent); }
+.search-input::placeholder { color: var(--text-dim); }
+.results-count { font-family: var(--mono); font-size: 12px; color: var(--text-dim); white-space: nowrap; }
+
+.rule-card { padding: 20px 32px; border-bottom: 1px solid var(--border); cursor: pointer; display: grid; grid-template-columns: 72px 1fr auto; gap: 20px; align-items: start; transition: background 0.15s; }
+.rule-card:hover { background: var(--bg2); }
+.score-badge { font-family: var(--mono); font-size: 22px; font-weight: 500; line-height: 1; }
+.score-badge.high { color: var(--red); }
+.score-badge.med { color: var(--yellow); }
+.score-badge.low { color: var(--green); }
+.score-sub { font-family: var(--mono); font-size: 9px; color: var(--text-dim); text-transform: uppercase; }
+.rule-title { font-family: var(--display); font-size: 15px; font-weight: 700; margin-bottom: 6px; line-height: 1.3; }
+.rule-meta { display: flex; gap: 12px; margin-bottom: 6px; }
+.tag { font-family: var(--mono); font-size: 10px; padding: 2px 8px; border-radius: 2px; text-transform: uppercase; }
+.tag-faa { background: #1a2040; color: #6080ff; }
+.tag-epa { background: #0a2010; color: #40c060; }
+.conf-tag { font-family: var(--mono); font-size: 10px; color: var(--text-dim); text-transform: uppercase; }
+.rule-finding { color: var(--text-dim); font-size: 13px; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.rule-industries { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+.ind-tag { font-family: var(--mono); font-size: 10px; color: var(--text-dim); background: var(--bg3); border: 1px solid var(--border); padding: 2px 6px; border-radius: 2px; }
+.rev-badge { font-family: var(--mono); font-size: 10px; color: var(--red); border: 1px solid var(--red-dim); background: var(--red-dim); padding: 2px 6px; border-radius: 2px; }
+.rule-date { font-family: var(--mono); font-size: 11px; color: var(--text-dim); white-space: nowrap; }
+
+.detail-panel { display: none; position: fixed; right: 0; top: 64px; width: 480px; height: calc(100vh - 64px); background: var(--bg2); border-left: 1px solid var(--border); overflow-y: auto; z-index: 50; }
+.detail-panel.open { display: block; }
+.detail-header { padding: 24px; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--bg2); }
+.detail-close { background: none; border: none; color: var(--text-dim); cursor: pointer; font-family: var(--mono); font-size: 12px; padding: 0; margin-bottom: 12px; display: flex; align-items: center; gap: 6px; }
+.detail-close:hover { color: var(--text); }
+.detail-score { font-family: var(--mono); font-size: 48px; font-weight: 500; line-height: 1; margin-bottom: 4px; }
+.detail-title { font-family: var(--display); font-size: 18px; font-weight: 700; line-height: 1.3; margin-top: 12px; }
+.detail-body { padding: 24px; }
+.detail-section { margin-bottom: 28px; }
+.detail-section-title { font-family: var(--mono); font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+.finding-box { background: var(--bg3); border: 1px solid var(--border); border-left: 3px solid var(--red); padding: 12px 16px; font-size: 13px; line-height: 1.6; border-radius: 0 4px 4px 0; }
+.revolver-item { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.revolver-item:last-child { border-bottom: none; }
+.lobby-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); gap: 12px; }
+.lobby-item:last-child { border-bottom: none; }
+.lobby-amount { font-family: var(--mono); font-size: 12px; color: var(--yellow); white-space: nowrap; }
+
+.revolvers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 24px; }
+.revolver-card { background: var(--bg2); border: 1px solid var(--border); padding: 20px; border-radius: 4px; }
+
+.loading { padding: 60px 32px; text-align: center; color: var(--text-dim); font-family: var(--mono); font-size: 13px; }
+.empty { padding: 60px 32px; text-align: center; color: var(--text-dim); font-size: 14px; }
+.page { display: none; }
+.page.active { display: block; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Regulatory <span>Capture</span> Tracker</div>
+  <nav>
+    <a class="active" onclick="showPage('rules',this)">Rules</a>
+    <a onclick="showPage('revolvers',this)">Revolving Door</a>
+    <a onclick="showPage('scoreboard',this)">Scoreboard</a>
+    <a href="https://ko-fi.com" target="_blank" style="color:var(--yellow);border:1px solid var(--yellow);padding:4px 12px;border-radius:3px;font-size:11px">Support ♥</a>
+  </nav>
+</header>
+
+<div id="rules-page" class="page active">
+  <div class="stats-bar">
+    <div class="stat"><span class="stat-value" id="s-rules">—</span><div class="stat-label">Rules Tracked</div></div>
+    <div class="stat"><span class="stat-value" style="color:var(--red)" id="s-high">—</span><div class="stat-label">High Risk Rules</div></div>
+    <div class="stat"><span class="stat-value" id="s-ind">—</span><div class="stat-label">Industries</div></div>
+    <div class="stat"><span class="stat-value" style="color:var(--yellow)" id="s-rev">—</span><div class="stat-label">Revolving Door</div></div>
+    <div class="stat"><span class="stat-value" id="s-con">—</span><div class="stat-label">Lobbying Connections</div></div>
+  </div>
+
+  <div class="filter-bar">
+    <div class="filter-row">
+      <div class="filter-row-label">Agency</div>
+      <div class="filter-row-controls" id="agency-group">
+        <button class="fchip on" onclick="setAgency(null,this)">All</button>
+        <button class="fchip" onclick="setAgency('FAA',this)">FAA</button>
+        <button class="fchip" onclick="setAgency('EPA',this)">EPA</button>
+        <button class="fchip" onclick="setAgency('FDA',this)">FDA</button>
+        <button class="fchip" onclick="setAgency('FTC',this)">FTC</button>
+        <button class="fchip" onclick="setAgency('SEC',this)">SEC</button>
+      </div>
+    </div>
+    <div class="filter-row">
+      <div class="filter-row-label">Risk Level</div>
+      <div class="filter-row-controls" id="risk-group">
+        <button class="fchip on" onclick="setRisk(0,this)">All</button>
+        <button class="fchip" onclick="setRisk(60,this)">&#x1F534; High (60+)</button>
+        <button class="fchip" onclick="setRisk(30,this)">&#x1F7E1; Medium+ (30+)</button>
+      </div>
+    </div>
+    <div class="filter-row">
+      <div class="filter-row-label">Company</div>
+      <div class="filter-row-controls">
+        <select class="fselect" id="company-select" onchange="setCompany(this.value)">
+          <option value="">All Companies</option>
+        </select>
+      </div>
+    </div>
+    <div class="filter-row">
+      <div class="filter-row-label">Revolving Door</div>
+      <div class="filter-row-controls">
+        <button class="fchip" id="rev-filter-btn" onclick="toggleRevFilter(this)">Show only rules with revolving door connections</button>
+      </div>
+    </div>
+    <div class="filter-row">
+      <div class="filter-row-label">Politician</div>
+      <div class="filter-row-controls">
+        <select class="fselect" id="politician-select" onchange="setPolitician(this.value)">
+          <option value="">All Politicians</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="search-bar">
+    <input class="search-input" type="text" placeholder="Search rules..." id="search-input" oninput="renderRules()">
+    <span class="results-count" id="results-count"></span>
+  </div>
+  <div id="rules-list"><div class="loading">Loading rules...</div></div>
+</div>
+
+<div id="revolvers-page" class="page">
+  <div style="padding:40px 32px">
+    <div style="font-family:var(--mono);font-size:11px;color:var(--red);letter-spacing:.15em;text-transform:uppercase;margin-bottom:16px">Revolving Door</div>
+    <h2 style="font-family:var(--display);font-size:36px;font-weight:900;letter-spacing:-1px;margin-bottom:12px">Former Officials Now Lobbying</h2>
+    <p style="color:var(--text-dim);max-width:560px;margin-bottom:32px">These individuals previously held government positions and are now registered lobbyists for regulated industries.</p>
+    <div class="revolvers-grid" id="revolvers-grid"><div class="loading">Loading...</div></div>
+  </div>
+</div>
+
+<div class="detail-panel" id="detail-panel">
+  <div class="detail-header">
+    <button class="detail-close" onclick="closeDetail()">&#8592; Back</button>
+    <div class="detail-score" id="d-score"></div>
+    <div style="font-family:var(--mono);font-size:11px;color:var(--text-dim)">Capture Risk Score</div>
+    <div class="detail-title" id="d-title"></div>
+  </div>
+  <div class="detail-body" id="d-body"><div class="loading">Loading...</div></div>
+</div>
+
+<div id="scoreboard-page" class="page">
+  <div style="padding:40px 32px">
+    <div style="font-family:var(--mono);font-size:11px;color:var(--red);letter-spacing:.15em;text-transform:uppercase;margin-bottom:16px">Industry Capture Index</div>
+    <h2 style="font-family:var(--display);font-size:36px;font-weight:900;letter-spacing:-1px;margin-bottom:12px">Politician Scoreboard</h2>
+    <p style="color:var(--text-dim);max-width:600px;margin-bottom:8px">
+      Ranked by total PAC donations received from regulated industries — oil &amp; gas, coal, chemical, and aerospace.
+      All data from FEC public records, 2024 election cycle.
+    </p>
+    <p style="color:var(--text-dim);font-size:12px;margin-bottom:32px;font-family:var(--mono)">
+      These senators sit on committees with direct oversight of the EPA and FAA.
+    </p>
+
+    <div style="display:flex;gap:12px;margin-bottom:24px;flex-wrap:wrap" id="sb-industry-filters">
+      <button class="fchip on" onclick="filterScoreboard(null,this)">All Industries</button>
+      <button class="fchip" onclick="filterScoreboard('OIL_GAS_INDUSTRY',this)">&#9679; Oil &amp; Gas</button>
+      <button class="fchip" onclick="filterScoreboard('COAL_INDUSTRY',this)">&#9679; Coal</button>
+      <button class="fchip" onclick="filterScoreboard('CHEMICAL_INDUSTRY',this)">&#9679; Chemical</button>
+      <button class="fchip" onclick="filterScoreboard('AEROSPACE_INDUSTRY',this)">&#9679; Aerospace</button>
+    </div>
+
+    <div id="scoreboard-table"><div class="loading">Loading...</div></div>
+  </div>
+</div>
+
+<script>
+const API = 'http://localhost:8000/api';
+let allRules = [];
+let curAgency = null, curRisk = 0, curCompany = null, curPolitician = null, revOnly = false;
+
+async function loadStats() {
+  try {
+    const d = await fetch(API+'/stats').then(r=>r.json());
+    document.getElementById('s-rules').textContent = (d.total_rules||0).toLocaleString();
+    document.getElementById('s-high').textContent = (d.high_risk_rules||0).toLocaleString();
+    document.getElementById('s-ind').textContent = (d.industries_tracked||0).toLocaleString();
+    document.getElementById('s-rev').textContent = (d.revolving_door_lobbyists||0).toLocaleString();
+    document.getElementById('s-con').textContent = (d.lobbying_connections||0).toLocaleString();
+  } catch(e) {}
+}
+
+async function loadRules() {
+  document.getElementById('rules-list').innerHTML = '<div class="loading">Loading rules...</div>';
+  try {
+    let url = `${API}/rules?limit=200&min_score=${curRisk}`;
+    if (curAgency) url += `&agency=${curAgency}`;
+    if (curCompany) url += `&company_id=${encodeURIComponent(curCompany)}`;
+    if (curPolitician) url += `&politician_id=${encodeURIComponent(curPolitician)}`;
+    allRules = await fetch(url).then(r=>r.json());
+    renderRules();
+  } catch(e) {
+    document.getElementById('rules-list').innerHTML = '<div class="empty">Could not connect to API.<br><br><code>uvicorn api.main:app --reload --port 8000</code></div>';
+  }
+}
+
+function scoreClass(s) { return s>=60?'high':s>=30?'med':'low'; }
+
+function renderRules() {
+  const q = document.getElementById('search-input').value.toLowerCase();
+  let list = allRules;
+  if (q) list = list.filter(r=>(r.title||'').toLowerCase().includes(q)||(r.key_finding||'').toLowerCase().includes(q));
+  if (revOnly) list = list.filter(r=>r.has_revolvers);
+  document.getElementById('results-count').textContent = `${list.length} rules`;
+  if (!list.length) { document.getElementById('rules-list').innerHTML='<div class="empty">No rules match your filters.</div>'; return; }
+  document.getElementById('rules-list').innerHTML = list.map(r=>`
+    <div class="rule-card" onclick="openDetail('${r.id}')">
+      <div>
+        <div class="score-badge ${scoreClass(r.score)}">${Math.round(r.score||0)}</div>
+        <div class="score-sub">/100</div>
+      </div>
+      <div>
+        <div class="rule-title">${r.title||'Untitled'}</div>
+        <div class="rule-meta">
+          <span class="tag tag-${(r.agency||'').toLowerCase()}">${r.agency||'—'}</span>
+          ${r.confidence?`<span class="conf-tag">${r.confidence} confidence</span>`:''}
+          ${r.has_revolvers?'<span class="rev-badge">&#x21BB; Revolving door</span>':''}
+        </div>
+        ${r.key_finding?`<div class="rule-finding">${r.key_finding}</div>`:''}
+        ${(r.industries||[]).filter(i=>i&&i!=='Unknown').length?`<div class="rule-industries">${r.industries.filter(i=>i&&i!=='Unknown').slice(0,3).map(i=>`<span class="ind-tag">${i}</span>`).join('')}</div>`:''}
+      </div>
+      <div class="rule-date">${(r.date||'').slice(0,10)}</div>
+    </div>`).join('');
+}
+
+function setAgency(v,btn) {
+  curAgency=v;
+  document.getElementById('agency-group').querySelectorAll('.fchip').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  loadRules();
+}
+
+function setRisk(v,btn) {
+  curRisk=v;
+  document.getElementById('risk-group').querySelectorAll('.fchip').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  loadRules();
+}
+
+function setCompany(v) { curCompany=v||null; loadRules(); }
+
+function toggleRevFilter(btn) {
+  revOnly=!revOnly;
+  btn.classList.toggle('on-red',revOnly);
+  btn.classList.toggle('on',false);
+  renderRules();
+}
+
+function setPolitician(v) { curPolitician=v||null; loadRules(); }
+
+async function loadPoliticians() {
+  try {
+    const data = await fetch(API+'/politicians').then(r=>r.json());
+    const sel = document.getElementById('politician-select');
+    data.forEach(p=>{
+      const o=document.createElement('option');
+      o.value=p.id;
+      o.textContent=`${p.name} (${p.party}-${p.state})${p.total_donations>0?' $'+p.total_donations.toLocaleString():''}`;
+      sel.appendChild(o);
+    });
+  } catch(e) {}
+}
+
+async function loadCompanies() {
+  try {
+    const companies = await fetch(API+'/companies').then(r=>r.json());
+    const sel = document.getElementById('company-select');
+    companies.forEach(c=>{
+      const o=document.createElement('option');
+      o.value=c.id;
+      o.textContent=`${c.name}${c.high_risk_rules>0?' ('+c.high_risk_rules+' high risk)':''}`;
+      sel.appendChild(o);
+    });
+  } catch(e) {}
+}
+
+async function openDetail(id) {
+  document.getElementById('detail-panel').classList.add('open');
+  document.getElementById('d-body').innerHTML='<div class="loading">Loading...</div>';
+  try {
+    const d = await fetch(`${API}/rules/${encodeURIComponent(id)}`).then(r=>r.json());
+    const rule=d.rule||{};
+    const sc=Math.round(rule.score||0);
+    const el=document.getElementById('d-score');
+    el.textContent=sc;
+    el.style.color=sc>=60?'var(--red)':sc>=30?'var(--yellow)':'var(--green)';
+    document.getElementById('d-title').textContent=rule.title||'';
+    let html='';
+    if(rule.key_finding) html+=`<div class="detail-section"><div class="detail-section-title">Key Finding</div><div class="finding-box">${rule.key_finding}</div></div>`;
+    if(rule.summary) html+=`<div class="detail-section"><div class="detail-section-title">Analysis Summary</div><div style="font-size:13px;line-height:1.7;color:var(--text-dim)">${rule.summary}</div></div>`;
+    if(d.revolving_door&&d.revolving_door.length) html+=`<div class="detail-section"><div class="detail-section-title">Revolving Door (${d.revolving_door.length})</div>${d.revolving_door.map(p=>`<div class="revolver-item"><div style="font-family:var(--mono);font-size:13px">${p.name}</div><div style="font-size:12px;color:var(--red);margin:2px 0">Former: ${p.former_role||'—'}</div><div style="font-size:12px;color:var(--text-dim)">Now at: ${p.now_at||'—'}</div></div>`).join('')}</div>`;
+    if(d.lobbying&&d.lobbying.length) html+=`<div class="detail-section"><div class="detail-section-title">Lobbying Activity</div>${d.lobbying.map(l=>`<div class="lobby-item"><div style="font-size:13px">${l.company||'—'}</div>${l.amount?`<div class="lobby-amount">$${Number(l.amount).toLocaleString()}</div>`:''}</div>`).join('')}</div>`;
+    if(d.politicians&&d.politicians.length) {
+      html+=`<div class="detail-section"><div class="detail-section-title">Committee Oversight (${d.politicians.length} members)</div>`;
+      html+=`<div style="font-size:12px;color:var(--text-dim);margin-bottom:12px">These politicians sat on committees overseeing this agency</div>`;
+      html+=d.politicians.map(p=>{
+        const donations = (p.donations||[]).filter(d=>d.industry&&d.amount>0);
+        const totalDonated = donations.reduce((s,d)=>s+(d.amount||0),0);
+        return `<div class="revolver-item">
+          <div style="display:flex;justify-content:space-between;align-items:start">
+            <div>
+              <div style="font-family:var(--mono);font-size:13px">${p.name} <span style="color:${p.party==='R'?'#ff6b6b':p.party==='D'?'#6b9fff':'#aaa'}">(${p.party}-${p.state})</span></div>
+              <div style="font-size:12px;color:var(--text-dim);margin-top:2px">${p.committee||'—'}</div>
+            </div>
+            ${totalDonated>0?`<div style="font-family:var(--mono);font-size:12px;color:var(--yellow);text-align:right">$${totalDonated.toLocaleString()}<div style="font-size:10px;color:var(--text-dim)">from industry PACs</div></div>`:''}
+          </div>
+        </div>`;
+      }).join('');
+      html+=`</div>`;
+    }
+    const meta=[rule.agency&&`Agency: ${rule.agency}`,rule.date&&`Published: ${rule.date}`,rule.citation&&`Citation: ${rule.citation}`].filter(Boolean);
+    if(meta.length) html+=`<div class="detail-section"><div class="detail-section-title">Details</div>${meta.map(m=>`<div style="font-family:var(--mono);font-size:12px;color:var(--text-dim);margin-bottom:6px">${m}</div>`).join('')}</div>`;
+    document.getElementById('d-body').innerHTML=html||'<div class="empty">No detailed analysis yet.</div>';
+  } catch(e) { document.getElementById('d-body').innerHTML='<div class="empty">Failed to load details.</div>'; }
+}
+
+function closeDetail() { document.getElementById('detail-panel').classList.remove('open'); }
+
+async function loadRevolvers() {
+  try {
+    const data = await fetch(API+'/revolvers?limit=100').then(r=>r.json());
+    document.getElementById('revolvers-grid').innerHTML=data.map(p=>`<div class="revolver-card"><div style="font-family:var(--mono);font-size:14px;font-weight:500;margin-bottom:8px">${p.name}</div><div style="font-size:12px;color:var(--red);margin-bottom:6px;line-height:1.4">Former: ${p.former_role||'—'}</div><div style="font-size:12px;color:var(--text-dim)">Now lobbying for: ${p.now_at||'—'}</div></div>`).join('')||'<div class="empty">No data.</div>';
+  } catch(e) { document.getElementById('revolvers-grid').innerHTML='<div class="empty">Could not load.</div>'; }
+}
+
+function showPage(page,el) {
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('nav a').forEach(a=>a.classList.remove('active'));
+  document.getElementById(page+'-page').classList.add('active');
+  el.classList.add('active');
+  closeDetail();
+  if(page==='revolvers') loadRevolvers();
+  if(page==='scoreboard') loadScoreboard();
+}
+
+loadStats(); loadRules(); loadCompanies(); loadPoliticians();
+
+let allScoreboardData = [];
+let sbIndustryFilter = null;
+
+async function loadScoreboard() {
+  try {
+    const data = await fetch(API+'/scoreboard').then(r=>r.json());
+    allScoreboardData = data;
+    renderScoreboard(data);
+  } catch(e) {
+    document.getElementById('scoreboard-table').innerHTML='<div class="empty">Could not load scoreboard.</div>';
+  }
+}
+
+function filterScoreboard(industry, btn) {
+  sbIndustryFilter = industry;
+  document.getElementById('sb-industry-filters').querySelectorAll('.fchip').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  if (!industry) {
+    renderScoreboard(allScoreboardData);
+    return;
+  }
+  const filtered = allScoreboardData.map(p => ({
+    ...p,
+    total: (p.breakdown||{})[industry]||0,
+    breakdown: p.breakdown
+  })).filter(p=>p.total>0).sort((a,b)=>b.total-a.total);
+  renderScoreboard(filtered, industry);
+}
+
+function renderScoreboard(data, industryFilter=null) {
+  if (!data.length) {
+    document.getElementById('scoreboard-table').innerHTML='<div class="empty">No data found.</div>';
+    return;
+  }
+
+  const maxAmount = Math.max(...data.map(p=>p.total||p.total_donations||0));
+  const industryColors = {
+    'OIL_GAS_INDUSTRY': '#ff6b35',
+    'COAL_INDUSTRY': '#888',
+    'CHEMICAL_INDUSTRY': '#a78bfa',
+    'AEROSPACE_INDUSTRY': '#38bdf8',
+  };
+  const industryLabels = {
+    'OIL_GAS_INDUSTRY': 'Oil & Gas',
+    'COAL_INDUSTRY': 'Coal',
+    'CHEMICAL_INDUSTRY': 'Chemical',
+    'AEROSPACE_INDUSTRY': 'Aerospace',
+  };
+
+  let html = `<table style="width:100%;border-collapse:collapse">
+    <thead>
+      <tr style="border-bottom:1px solid var(--border)">
+        <th style="font-family:var(--mono);font-size:10px;color:var(--text-dim);text-transform:uppercase;padding:8px 16px 8px 0;text-align:left;width:32px">#</th>
+        <th style="font-family:var(--mono);font-size:10px;color:var(--text-dim);text-transform:uppercase;padding:8px 16px 8px 0;text-align:left">Senator</th>
+        <th style="font-family:var(--mono);font-size:10px;color:var(--text-dim);text-transform:uppercase;padding:8px 16px 8px 0;text-align:left">Committee</th>
+        <th style="font-family:var(--mono);font-size:10px;color:var(--text-dim);text-transform:uppercase;padding:8px 0;text-align:right">Total Received</th>
+        <th style="font-family:var(--mono);font-size:10px;color:var(--text-dim);text-transform:uppercase;padding:8px 0 8px 24px;text-align:left;width:200px">Breakdown</th>
+      </tr>
+    </thead>
+    <tbody>`;
+
+  data.forEach((p, i) => {
+    const total = p.total || p.total_donations || 0;
+    const barWidth = maxAmount > 0 ? Math.round((total/maxAmount)*180) : 0;
+    const partyColor = p.party==='R'?'#ff6b6b':p.party==='D'?'#6b9fff':'#aaa';
+    const breakdown = p.breakdown || {};
+
+    // Build stacked bar
+    let stackedBar = '';
+    let barOffset = 0;
+    const industries = ['OIL_GAS_INDUSTRY','COAL_INDUSTRY','CHEMICAL_INDUSTRY','AEROSPACE_INDUSTRY'];
+    industries.forEach(ind => {
+      const amt = breakdown[ind] || 0;
+      if (amt > 0 && maxAmount > 0) {
+        const w = Math.round((amt/maxAmount)*180);
+        stackedBar += `<div style="position:absolute;left:${barOffset}px;top:0;width:${w}px;height:100%;background:${industryColors[ind]};opacity:0.8" title="${industryLabels[ind]}: $${amt.toLocaleString()}"></div>`;
+        barOffset += w;
+      }
+    });
+
+    html += `<tr style="border-bottom:1px solid var(--border);transition:background 0.15s" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''">
+      <td style="padding:14px 16px 14px 0;font-family:var(--mono);font-size:13px;color:var(--text-dim)">${i+1}</td>
+      <td style="padding:14px 16px 14px 0">
+        <div style="font-family:var(--display);font-size:15px;font-weight:700">${p.name}</div>
+        <div style="font-family:var(--mono);font-size:11px;color:${partyColor};margin-top:2px">${p.party}-${p.state}</div>
+      </td>
+      <td style="padding:14px 16px 14px 0;font-size:12px;color:var(--text-dim);max-width:200px">${(p.committees||[]).join(', ').replace('Senate ','').slice(0,50)}</td>
+      <td style="padding:14px 0;font-family:var(--mono);font-size:14px;font-weight:500;color:var(--yellow);text-align:right;white-space:nowrap">$${total.toLocaleString()}</td>
+      <td style="padding:14px 0 14px 24px">
+        <div style="position:relative;height:12px;width:180px;background:var(--bg3);border-radius:2px;overflow:hidden">
+          ${stackedBar || `<div style="width:${barWidth}px;height:100%;background:var(--accent);opacity:0.6"></div>`}
+        </div>
+      </td>
+    </tr>`;
+  });
+
+  html += `</tbody></table>`;
+
+  // Legend
+  html += `<div style="display:flex;gap:16px;margin-top:20px;flex-wrap:wrap">`;
+  Object.entries(industryColors).forEach(([id,color])=>{
+    html += `<div style="display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11px;color:var(--text-dim)">
+      <div style="width:12px;height:12px;background:${color};border-radius:2px;opacity:0.8"></div>
+      ${industryLabels[id]}
+    </div>`;
+  });
+  html += `</div>`;
+
+  document.getElementById('scoreboard-table').innerHTML = html;
+}
+</script>
+</body>
+</html>

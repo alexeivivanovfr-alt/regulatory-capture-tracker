@@ -1,0 +1,1464 @@
+{
+  "analyzed": [
+    "EPA-HQ-OPPT-2020-0642",
+    "EPA-HQ-OAR-2019-0178",
+    "EPA-HQ-OAR-2018-0794",
+    "EPA-HQ-OLEM-2020-0107",
+    "EPA-HQ-OAR-2024-0358",
+    "EPA-HQ-OLEM-2025-0313",
+    "EPA-HQ-OAR-2024-0505",
+    "EPA-HQ-OAR-2019-0178",
+    "EPA-HQ-OAR-2017-0183",
+    "EPA-HQ-OAR-2018-0794",
+    "EPA-HQ-OLEM-2025-0313",
+    "EPA-HQ-OAR-2025-0194",
+    "EPA-HQ-OPPT-2020-0642",
+    "EPA-HQ-OLEM-2025-2038",
+    "EPA-HQ-OAR-2025-0192",
+    "EPA-HQ-OAR-2024-0419",
+    "EPA-HQ-OW-2024-0592",
+    "EPA-HQ-OAR-2025-0162",
+    "EPA-HQ-OW-2025-0322",
+    "EPA-HQ-OPPT-2020-0642",
+    "EPA-HQ-OPPT-2020-0549",
+    "EPA-HQ-OAR-2004-0022",
+    "EPA-HQ-OAR-2025-0005",
+    "EPA-HQ-OAR-2025-1477",
+    "EPA-HQ-OW-2023-0222",
+    "EPA-HQ-OPPT-2025-0260",
+    "EPA-HQ-OAR-2024-0505",
+    "EPA-HQ-OW-2021-0736",
+    "EPA-HQ-OAR-2024-0196",
+    "EPA-HQ-OPPT-2020-0642",
+    "EPA-HQ-OAR-2025-0194",
+    "EPA-HQ-OAR-2025-0162",
+    "EPA-HQ-OPPT-2020-0642",
+    "EPA-HQ-OAR-2025-0124",
+    "EPA-HQ-OAR-2018-0794",
+    "EPA-HQ-OAR-2024-0505",
+    "EPA-HQ-OPPT-2020-0642",
+    "EPA-HQ-OAR-2024-0358",
+    "EPA-HQ-OAR-2024-0358",
+    "EPA-HQ-OPPT-2021-0277",
+    "EPA-HQ-OW-2016-0405",
+    "EPA-HQ-OAR-2023-0282",
+    "EPA-HQ-OAR-2014-0128",
+    "EPA-HQ-OW-2020-0276",
+    "EPA-HQ-OPPT-2020-0592",
+    "EPA-HQ-OPPT-2022-0902",
+    "EPA-HQ-OPPT-2020-0642",
+    "EPA-HQ-OAR-2024-0419",
+    "EPA-HQ-OAR-2003-0118",
+    "EPA-HQ-OAR-2021-0668",
+    "EPA-HQ-OW-2019-0482",
+    "EPA-HQ-OAR-2022-0606",
+    "2024-22013",
+    "EPA-HQ-OPPT-2023-0538",
+    "EPA-HQ-OPPT-2018-0321",
+    "EPA-HQ-OAR-2024-0196",
+    "EPA-HQ-OAR-2024-0065",
+    "EPA-HQ-OAR-2023-0330",
+    "EPA-HQ-OPPT-2020-0549",
+    "EPA-HQ-OPPT-2020-0549",
+    "EPA-HQ-OPPT-2020-0471",
+    "EPA-HQ-OAR-2002-0085, EPA-HQ-OAR-2003-0051",
+    "EPA-HQ-OAR-2020-0371",
+    "EPA-HQ-OW-2022-0678",
+    "EPA-HQ-OLEM-2021-0397",
+    "EPA-HQ-OAR-2023-0234",
+    "EPA-HQ-OAR-2020-0430",
+    "EPA-HQ-OAR-2020-0371",
+    "EPA-HQ-OPPT-2023-0496",
+    "EPA-HQ-OW-2021-0791",
+    "EPA-HQ-OAR-2019-0424",
+    "EPA-HQ-OAR-2014-0128",
+    "EPA-HQ-OAR-2014-0128",
+    "EPA-HQ-OAR-2002-0083",
+    "EPA-HQ-OLEM-2021-0585",
+    "EPA-HQ-OLEM-2021-0397",
+    "EPA-HQ-OLEM-2023-0085",
+    "EPA-HQ-OAR-2017-0664",
+    "EPA-HQ-OLEM-2023-0085",
+    "EPA-HQ-OLEM-2023-0278",
+    "EPA-HQ-OW-2021-0736",
+    "EPA-HQ-OW-2023-0222",
+    "EPA-HQ-OW-2023-0222",
+    "EPA-HQ-OW-2023-0378",
+    "EPA-HQ-OPPT-2021-0357",
+    "EPA-HQ-OLEM-2023-0142",
+    "EPA-HQ-OAR-2021-0527",
+    "EPA-HQ-OPPT-2020-0642",
+    "EPA-HQ-OPPT-2023-0496",
+    "EPA-HQ-OAR-2022-0389",
+    "EPA-HQ-OLEM-2020-0550",
+    "EPA-HQ-OW-2019-0482",
+    "EPA-HQ-OPPT-2020-0549",
+    "EPA-HQ-OAR-2023-0330",
+    "EPA-HQ-OW-2022-0128",
+    "EPA-HQ-OAR-2002-0083",
+    "EPA-HQ-OAR-2022-0441",
+    "EPA-HQ-OAR-2003-0118",
+    "EPA-HQ-OAR-2020-0430",
+    "EPA-HQ-OAR-2002-0085, EPA-HQ-OAR-2003-0051",
+    "EPA-HQ-OW-2020-0276",
+    "EPA-HQ-OAR-2021-0427",
+    "EPA-HQ-OAR-2023-0234",
+    "EPA-HQ-OAR-2002-0083",
+    "EPA-HQ-OPPT-2020-0592",
+    "EPA-HQ-OPPT-2021-0357",
+    "EPA-HQ-OAR-2020-0430",
+    "EPA-HQ-OAR-2022-0430",
+    "EPA-HQ-OPPT-2022-0902",
+    "EPA-HQ-OAR-2020-0044",
+    "EPA-HQ-OAR-2021-0427",
+    "EPA-HQ-OPA-2006-0090",
+    "EPA-HQ-OAR-2017-0664",
+    "EPA-HQ-OPA-2006-0090",
+    "EPA-HQ-OAR-2021-0668",
+    "EPA-HQ-OPP-2019-0508",
+    "EPA-HQ-OPPT-2022-0902",
+    "EPA-HQ-OAR-2019-0424",
+    "EPA-HQ-OAR-2017-0664",
+    "EPA-HQ-OPP-2019-0508",
+    "EPA-HQ-OW-2016-0405",
+    "EPA-HQ-OLEM-2022-0922",
+    "EPA-HQ-OAR-2019-0055",
+    "EPA-HQ-OAR-2018-0794",
+    "EPA-HQ-OAR-2019-0055",
+    "EPA-HQ-OW-2021-0602",
+    "EPA-HQ-OAR-2021-0427",
+    "EPA-HQ-OAR-2021-0527",
+    "EPA-HQ-OAR-2002-0021",
+    "EPA-R08-OAR-2015-0709",
+    "EPA-HQ-OW-2021-0791",
+    "EPA-HQ-OAR-2021-0845",
+    "EPA-R10-OAR-2020-0361",
+    "EPA-HQ-OPPT-2020-0549",
+    "EPA-HQ-OAR-2022-0430",
+    "EPA-HQ-OAR-2022-0389",
+    "EPA-R10-OAR-2020-0361",
+    "EPA-HQ-OAR-2002-0058",
+    "EPA-HQ-OAR-2022-0434",
+    "EPA-HQ-OAR-2020-0371",
+    "EPA-HQ-OAR-2019-0307",
+    "EPA-HQ-OAR-2019-0424",
+    "EPA-HQ-OAR-2021-0324",
+    "EPA-HQ-OAR-2019-0424",
+    "EPA-HQ-OAR-2021-0253",
+    "EPA-HQ-OAR-2022-0434",
+    "EPA-HQ-OAR-2020-0371",
+    "EPA-HQ-OW-2022-0128",
+    "EPA-HQ-OAR-2019-0698",
+    "EPA-HQ-OLEM-2021-0585",
+    "EPA-HQ-OAR-2020-0560",
+    "EPA-HQ-OPPT-2021-0357",
+    "EPA-HQ-OAR-2021-0347",
+    "EPA-HQ-OAR-2021-0845",
+    "EPA-HQ-OPP-2020-0124",
+    "EPA-HQ-OAR-2021-0668",
+    "EPA-HQ-OAR-2019-0055",
+    "EPA-HQ-OLEM-2021-0585",
+    "EPA-HQ-OPPT-2021-0598",
+    "EPA-HQ-OPP-2020-0124",
+    "EPA-HQ-OAR-2020-0430",
+    "EPA-HQ-OAR-2018-0794"
+  ],
+  "results": [
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0642",
+      "title": "Extension of Postponement of Effectiveness for Certain Provisions of Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2026-05-05",
+      "score": 78,
+      "confidence": "high",
+      "key_finding": "EPA is indefinitely postponing workplace safety conditions on TCE exemptions following industry petitions, allowing continued unregulated use of a known toxic chemical until litigation concludes."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2019-0178",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Ethylene Oxide Emissions Standards for Sterilization Facilities Residual Risk and Technology Review Reconsideration; Extension of Comment Period",
+      "pub_date": "2026-05-01",
+      "score": 55,
+      "confidence": "medium",
+      "key_finding": "The 'Reconsideration' framing of ethylene oxide emission standards, combined with a comment period extension, suggests potential industry influence to revisit and possibly weaken previously established health protections for communities near sterilization facilities."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2018-0794",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Coal- and Oil-Fired Electric Utility Steam Generating Units: Final Repeal; Correction",
+      "pub_date": "2026-04-16",
+      "score": 85,
+      "confidence": "high",
+      "key_finding": "This administrative correction facilitates a broader regulatory rollback that repeals strengthened Mercury and Air Toxics Standards for coal and oil-fired power plants, representing a significant win for the coal and electric utility industries at the expense of hazardous air pollutant controls."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2020-0107",
+      "title": "Hazardous and Solid Waste Management System: Disposal of Coal Combustion Residuals From Electric Utilities; Legacy/CCRMU Amendments",
+      "pub_date": "2026-04-13",
+      "score": 82,
+      "confidence": "high",
+      "key_finding": "This rule systematically weakens CCR disposal regulations through exemptions, elimination of environmental demonstration requirements, and introduction of flexible 'site-specific' standards that transfer regulatory discretion from EPA to regulated utilities."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2024-0358",
+      "title": "Reconsideration of Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+      "pub_date": "2026-04-09",
+      "score": 55,
+      "confidence": "medium",
+      "key_finding": "While this reconsideration was triggered by industry petitions and modifies flaring and monitoring provisions, it appears narrowly scoped and explicitly preserves the core emission standards from the 2024 rule."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2025-0313",
+      "title": "Accidental Release Prevention Requirements: Risk Management Programs Under the Clean Air Act; Common Sense Approach to Chemical Accident Prevention; Extension of Comment Period",
+      "pub_date": "2026-04-02",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This procedural extension document itself shows minimal capture, but it extends comment on an underlying 'Common Sense Approach' rulemaking that likely represents industry-influenced weakening of chemical accident prevention requirements."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2024-0505",
+      "title": "Renewable Fuel Standard (RFS) Program: Standards for 2026 and 2027, Partial Waiver of 2025 Cellulosic Biofuel Volume Requirement, and Other Changes",
+      "pub_date": "2026-04-01",
+      "score": 68,
+      "confidence": "medium",
+      "key_finding": "The removal of renewable electricity (eRINs) and partial waiver of cellulosic biofuel requirements represent significant concessions to the traditional biofuel industry (corn ethanol, biodiesel) at the expense of emerging clean energy pathways and statutory environmental goals."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2019-0178",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Ethylene Oxide Emissions Standards for Sterilization Facilities Residual Risk and Technology Review Reconsideration",
+      "pub_date": "2026-03-17",
+      "score": 88,
+      "confidence": "high",
+      "key_finding": "This proposed rule represents a comprehensive rollback of ethylene oxide emission controls for sterilization facilities, rescinding risk-based standards and enclosure requirements less than one year after they were finalized, strongly indicating regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2017-0183",
+      "title": "Standards of Performance for New Stationary Sources and Emission Guidelines for Existing Sources: Large Municipal Waste Combustors Voluntary Remand Response and Five-Year Review",
+      "pub_date": "2026-03-10",
+      "score": 28,
+      "confidence": "medium",
+      "key_finding": "Despite some exemptions for air curtain incinerators, this rule appears to strengthen environmental protections by removing SSM exemptions and establishing tighter emission limits, resulting in meaningful pollution reductions."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2018-0794",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Coal- and Oil-Fired Electric Utility Steam Generating Units: Final Repeal",
+      "pub_date": "2026-02-24",
+      "score": 88,
+      "confidence": "high",
+      "key_finding": "This rule represents a direct repeal of recently strengthened mercury and hazardous air pollutant standards for coal-fired power plants, eliminating public health protections that were finalized less than two years prior, which is a hallmark indicator of successful industry-driven regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2025-0313",
+      "title": "Accidental Release Prevention Requirements: Risk Management Programs Under the Clean Air Act; Common Sense Approach to Chemical Accident Prevention",
+      "pub_date": "2026-02-24",
+      "score": 85,
+      "confidence": "high",
+      "key_finding": "This rule represents a systematic rollback of the 2024 chemical accident prevention rule, weakening safety requirements, third-party oversight, and community notification provisions under industry-favorable 'burden reduction' framing."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2025-0194",
+      "title": "Rescission of the Greenhouse Gas Endangerment Finding and Motor Vehicle Greenhouse Gas Emission Standards Under the Clean Air Act",
+      "pub_date": "2026-02-18",
+      "score": 95,
+      "confidence": "high",
+      "key_finding": "This rule represents an extreme case of potential regulatory capture, completely dismantling the legal and scientific foundation for federal vehicle GHG regulation in a manner that directly serves oil and gas industry interests by eliminating climate-related constraints on fossil fuel consumption."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0642",
+      "title": "Extension of Postponement of Effectiveness for Certain Provisions of Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2026-02-18",
+      "score": 72,
+      "confidence": "high",
+      "key_finding": "EPA is granting a second postponement of TCE safety conditions in direct response to chemical industry petitions it had previously denied, creating a pattern of serial delays that keeps a known carcinogen in workplaces without required protections."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2025-2038",
+      "title": "US Ecology Nevada, Inc. High Mercury Subcategory Wastes Land Disposal Restrictions Variance",
+      "pub_date": "2026-02-06",
+      "score": 58,
+      "confidence": "medium",
+      "key_finding": "EPA is responding to a single company's petition to weaken mercury reuse requirements, allowing permanent land disposal of elemental mercury rather than requiring it be returned to commerce, which benefits waste management industry over circular economy and long-term environmental protection."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2025-0192",
+      "title": "Interstate Transport Plan Review for the 2015 Ozone NAAQS",
+      "pub_date": "2026-01-30",
+      "score": 72,
+      "confidence": "medium",
+      "key_finding": "EPA is reversing prior disapproval actions and withdrawing error-corrections for multiple states, effectively weakening interstate ozone pollution controls that protect downwind communities from cross-border emissions."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2024-0419",
+      "title": "New Source Performance Standards Review for Stationary Combustion Turbines and Stationary Gas Turbines",
+      "pub_date": "2026-01-15",
+      "score": 55,
+      "confidence": "medium",
+      "key_finding": "The rule creates multiple subcategories and exemptions (including for temporary applications and Title V requirements) that reduce regulatory burden on industry segments while providing only incremental NOx control improvements."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2024-0592",
+      "title": "National Primary Drinking Water Regulation for Perchlorate",
+      "pub_date": "2026-01-06",
+      "score": 68,
+      "confidence": "medium",
+      "key_finding": "EPA's explicit statement that costs outweigh benefits, combined with court-compelled rulemaking and a range of MCL options spanning 4x difference, suggests significant industry influence despite the rule establishing first-ever perchlorate limits."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2025-0162",
+      "title": "Oil and Natural Gas Sector Climate Review: Extension of Deadlines in Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources",
+      "pub_date": "2025-12-03",
+      "score": 75,
+      "confidence": "high",
+      "key_finding": "This rule systematically extends multiple compliance deadlines across nearly all major provisions of oil and gas methane regulations, including the Super Emitter Program, suggesting significant industry influence in delaying climate protections."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2025-0322",
+      "title": "Updated Definition of \u201cWaters of the United States\u201d",
+      "pub_date": "2025-11-20",
+      "score": 72,
+      "confidence": "medium",
+      "key_finding": "This proposed rule codifies the Supreme Court's Sackett decision to narrow federal jurisdiction over waters, which directly benefits industrial dischargers and utilities by reducing the number of waterways requiring Clean Water Act permits."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0642",
+      "title": "Extension of Postponement of Effectiveness for Certain Provisions of Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2025-11-14",
+      "score": 72,
+      "confidence": "high",
+      "key_finding": "EPA is granting a second postponement of TCE regulations in direct response to industry petitions, delaying worker and public health protections from a known carcinogen by over a year despite initially denying the same industry requests."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0549",
+      "title": "Perfluoroalkyl and Polyfluoroalkyl Substances (PFAS) Data Reporting and Recordkeeping Under the Toxic Substances Control Act (TSCA); Revision to Regulation",
+      "pub_date": "2025-11-13",
+      "score": 72,
+      "confidence": "medium",
+      "key_finding": "This rule revision weakens a recently-promulgated 2023 PFAS reporting requirement by adding exemptions that benefit chemical manufacturers, following a classic capture pattern of industry successfully obtaining relief after initial rule passage."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2004-0022",
+      "title": "National Emission Standards for Hazardous Air Pollutants From Hazardous Waste Combustors: Residual Risk and Technology Review; Withdrawal of Proposed Revisions to Standards for Periods of Malfunction",
+      "pub_date": "2025-11-10",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "While the rule contains genuine new protections including HF/HCN limits and SSM exemption elimination, the withdrawal of the July 2024 proposal in response to industry comments on malfunction provisions suggests successful industry pressure to weaken enforcement during operational disruptions."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2025-0005",
+      "title": "Phasedown of Hydrofluorocarbons: Reconsideration of Certain Regulatory Requirements Promulgated Under the Technology Transitions Provisions of the American Innovation and Manufacturing Act of 2020",
+      "pub_date": "2025-10-03",
+      "score": 78,
+      "confidence": "high",
+      "key_finding": "This rule represents a systematic weakening of HFC restrictions directly in response to industry petitions, granting exemptions across multiple sectors and allowing continued use of high-GWP equipment that was previously restricted under the AIM Act."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2025-1477",
+      "title": "Visibility Protection: Regional Haze State Plan Requirements Rule Revision",
+      "pub_date": "2025-10-02",
+      "score": 68,
+      "confidence": "medium",
+      "key_finding": "This ANPR signals EPA's intent to weaken Regional Haze Rule requirements under the guise of 'streamlining,' opening the door for industry-favorable revisions that could reduce visibility protection obligations for polluting facilities."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2023-0222",
+      "title": "Water Quality Standards To Protect Aquatic Life in the Delaware River",
+      "pub_date": "2025-09-29",
+      "score": 22,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a genuine environmental protection measure that strengthens water quality standards for the Delaware River rather than a captured rollback, establishing new aquatic life designated uses and dissolved oxygen criteria where previous standards were inadequate."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2025-0260",
+      "title": "Procedures for Chemical Risk Evaluation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2025-09-23",
+      "score": 72,
+      "confidence": "medium",
+      "key_finding": "This rule proposes to roll back 2024 amendments to chemical risk evaluation procedures within one year of their adoption, strongly suggesting successful industry pressure to weaken recently strengthened protections."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2024-0505",
+      "title": "Renewable Fuel Standard (RFS) Program: Standards for 2026 and 2027, Partial Waiver of 2025 Cellulosic Biofuel Volume Requirement, and Other Changes; Supplemental Notice of Proposed Rulemaking",
+      "pub_date": "2025-09-18",
+      "score": 65,
+      "confidence": "medium",
+      "key_finding": "The rule demonstrates petroleum refinery influence through extensive small refinery exemptions that undermine renewable fuel mandates, though EPA's proposed reallocation mechanism partially mitigates this capture dynamic."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2021-0736",
+      "title": "Clean Water Act Effluent Limitations Guidelines and Standards for the Meat and Poultry Products Point Source Category",
+      "pub_date": "2025-09-03",
+      "score": 85,
+      "confidence": "high",
+      "key_finding": "EPA completely withdrew proposed effluent limitations for the meat and poultry industry after industry comment period, representing a textbook example of regulatory capture where a rulemaking designed to strengthen water quality protections was abandoned following industry opposition."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2024-0196",
+      "title": "Phasedown of Hydrofluorocarbons: Review and Renewal of Eligibility for Application-Specific Allowances",
+      "pub_date": "2025-08-26",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule implements a congressionally-mandated HFC phasedown with targeted exemptions for specific applications, showing moderate industry accommodation within a generally protective framework rather than significant regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0642",
+      "title": "Extension of Postponement of Effectiveness for Certain Provisions of Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2025-08-20",
+      "score": 75,
+      "confidence": "high",
+      "key_finding": "EPA is repeatedly postponing the effectiveness of TCE workplace protections in direct response to industry petitions from chemical and battery manufacturers, despite having already finalized and defended the rule."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2025-0194",
+      "title": "Reconsideration of 2009 Endangerment Finding and Greenhouse Gas Vehicle Standards",
+      "pub_date": "2025-08-01",
+      "score": 95,
+      "confidence": "high",
+      "key_finding": "This rule represents an extreme case of regulatory capture, proposing to dismantle the entire legal and scientific foundation for vehicle GHG regulation, directly serving oil and gas industry interests in eliminating constraints on fossil fuel consumption."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2025-0162",
+      "title": "Extension of Deadlines in Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review Final Rule",
+      "pub_date": "2025-07-31",
+      "score": 78,
+      "confidence": "high",
+      "key_finding": "This rule systematically delays implementation of comprehensive methane emission controls across nearly all major provisions of the 2024 oil and gas climate rule, providing significant regulatory relief to the industry at the expense of timely emissions reductions."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0642",
+      "title": "Extension of Postponement of Effectiveness for Certain Provisions of Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2025-06-23",
+      "score": 75,
+      "confidence": "high",
+      "key_finding": "EPA is granting serial postponements of TCE regulations directly in response to industry petitions, delaying worker and public health protections from a known carcinogen despite initially denying the same requests."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2025-0124",
+      "title": "Repeal of Greenhouse Gas Emissions Standards for Fossil Fuel-Fired Electric Generating Units",
+      "pub_date": "2025-06-17",
+      "score": 95,
+      "confidence": "high",
+      "key_finding": "This proposed rule represents near-total regulatory capture, as EPA seeks to completely dismantle GHG regulations for fossil fuel power plants while reversing scientific findings on climate harm\u2014actions that directly serve oil, gas, and coal industry interests at the expense of public health and environmental protection."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2018-0794",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Coal- and Oil-Fired Electric Utility Steam Generating Units",
+      "pub_date": "2025-06-17",
+      "score": 85,
+      "confidence": "high",
+      "key_finding": "This proposed rule represents a direct rollback of recently strengthened mercury and hazardous air pollutant standards for coal-fired power plants, strongly suggesting regulatory capture by the coal and electric utility industries."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2024-0505",
+      "title": "Renewable Fuel Standard (RFS) Program: Standards for 2026 and 2027, Partial Waiver of 2025 Cellulosic Biofuel Volume Requirement, and Other Changes",
+      "pub_date": "2025-06-17",
+      "score": 72,
+      "confidence": "medium",
+      "key_finding": "The proposal simultaneously weakens cellulosic biofuel requirements through waivers while eliminating the eRIN pathway for electric vehicles, suggesting capture by the established corn ethanol and biodiesel industry seeking to protect market share from both advanced biofuels and electrification."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0642",
+      "title": "Postponement of Effectiveness for Certain Provisions of Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2025-04-02",
+      "score": 72,
+      "confidence": "high",
+      "key_finding": "EPA postponed effectiveness of TCE safety conditions directly in response to industry petitions from battery manufacturers, despite having initially denied their stay requests just days earlier."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2024-0358",
+      "title": "Reconsideration of Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review; Correction",
+      "pub_date": "2025-01-17",
+      "score": 35,
+      "confidence": "low",
+      "key_finding": "This excerpt shows limited evidence - primarily a procedural correction to information collection estimates in response to industry reconsideration petitions, but the substantive content of any weakening is not visible in this truncated text."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2024-0358",
+      "title": "Reconsideration of Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+      "pub_date": "2025-01-15",
+      "score": 65,
+      "confidence": "medium",
+      "key_finding": "EPA's reconsideration of oil and gas emission rules in response to industry petitions, specifically relaxing flaring provisions and monitoring requirements, follows a recognizable pattern of regulatory capture despite claims that core emission standards remain unchanged."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2021-0277",
+      "title": "C.I. Pigment Violet 29 (PV29); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2025-01-14",
+      "score": 28,
+      "confidence": "medium",
+      "key_finding": "While the rule contains standard procedural accommodations like transition periods, it appears to be a legitimate regulatory action fulfilling TSCA statutory requirements to address documented worker health risks from PV29."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2016-0405",
+      "title": "Federal Baseline Water Quality Standards for Indian Reservations; Withdrawal of Proposed Rule",
+      "pub_date": "2025-01-10",
+      "score": 72,
+      "confidence": "medium",
+      "key_finding": "EPA's withdrawal of federal baseline water quality standards for tribal waters removes imminent protections and creates a prolonged regulatory gap benefiting industrial dischargers, while framing the decision as supporting tribal sovereignty."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2023-0282",
+      "title": "Review of National Emission Standards for Hazardous Air Pollutants for Polyether Polyols Production Industry",
+      "pub_date": "2024-12-27",
+      "score": 32,
+      "confidence": "medium",
+      "key_finding": "Despite industry petition for reconsideration, this rule primarily strengthens protections with significant HAP and carcinogenic EtO emission reductions, suggesting EPA resistance to capture rather than capitulation."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2014-0128",
+      "title": "Review of the Secondary National Ambient Air Quality Standards for Oxides of Nitrogen, Oxides of Sulfur, and Particulate Matter",
+      "pub_date": "2024-12-27",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "While EPA establishes a new SO2 secondary standard, the retention of existing N oxide and PM standards without revision after a 10-year review, combined with multi-year averaging provisions, suggests moderate industry influence in limiting the scope of strengthened protections."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2020-0276",
+      "title": "Clean Water Act Section 404 Tribal and State Assumption Program",
+      "pub_date": "2024-12-18",
+      "score": 35,
+      "confidence": "low",
+      "key_finding": "This administrative streamlining rule primarily clarifies existing assumption procedures rather than substantively weakening protections, though state assumption of 404 programs historically correlates with more permissive wetland permitting."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0592",
+      "title": "Carbon Tetrachloride (CTC); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2024-12-18",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "While the rule does address CTC health risks through workplace requirements and some prohibitions, the significant exemption for HFO manufacturing suggests industry successfully secured continued access to this toxic chemical for a major use category."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2022-0902",
+      "title": "Updates to New Chemicals Regulations Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2024-12-18",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to strengthen chemical oversight by eliminating exemptions for PFAS and PBT substances and requiring pre-approval before manufacturing, representing genuine public health improvements rather than regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0642",
+      "title": "Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2024-12-17",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "While the rule contains meaningful protections including a consumer ban and industrial restrictions, exemptions for 'critical or essential uses' and transition periods create potential avenues for continued industry TCE use that warrant monitoring."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2024-0419",
+      "title": "Review of New Source Performance Standards for Stationary Combustion Turbines and Stationary Gas Turbines",
+      "pub_date": "2024-12-13",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule appears to genuinely strengthen NOx emission standards by requiring SCR technology as BSER, though the creation of multiple subcategories and exceptions warrants scrutiny for potential industry-favorable loopholes."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2003-0118",
+      "title": "Protection of Stratospheric Ozone: Determination 39 for the Significant New Alternatives Policy Program",
+      "pub_date": "2024-12-11",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a routine, environmentally beneficial expansion of acceptable ozone-safe alternatives with minimal signs of regulatory capture, though the wide formulation ranges for foam blowing agents warrant monitoring."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0668",
+      "title": "Federal \u201cGood Neighbor Plan\u201d for the 2015 Ozone National Ambient Air Quality Standards; Notice on Remand of the Record of the Good Neighbor Plan To Respond to Certain Comments",
+      "pub_date": "2024-12-10",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This notice represents EPA defending its existing Good Neighbor Plan against legal challenges by providing additional justification, not weakening the rule in response to industry pressure."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2019-0482",
+      "title": "Vessel Incidental Discharge National Standards of Performance; Correction",
+      "pub_date": "2024-10-31",
+      "score": 5,
+      "confidence": "high",
+      "key_finding": "This rule is a minor typographical correction removing a stray footnote marker and contains no substantive regulatory changes that would indicate industry capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2022-0606",
+      "title": "Phasedown of Hydrofluorocarbons: Management of Certain Hydrofluorocarbons and Substitutes Under the American Innovation and Manufacturing Act of 2020",
+      "pub_date": "2024-10-11",
+      "score": 30,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a genuine environmental protection measure implementing congressional mandates under the AIM Act, with industry-standard compliance mechanisms rather than significant capture indicators."
+    },
+    {
+      "docket_id": "2024-22013",
+      "title": "Vessel Incidental Discharge National Standards of Performance",
+      "pub_date": "2024-10-09",
+      "score": 68,
+      "confidence": "medium",
+      "key_finding": "This rule prioritizes regulatory streamlining for the shipping industry by preempting state and local discharge requirements while deferring actual enforcement to future USCG rulemaking with no set deadline."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2023-0538",
+      "title": "Addition of Certain Per- and Polyfluoroalkyl Substances (PFAS) to the Toxics Release Inventory (TRI)",
+      "pub_date": "2024-10-08",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a genuine protective action mandated by Congress through the NDAA, expanding PFAS transparency requirements rather than weakening existing protections."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2018-0321",
+      "title": "Chemical Data Reporting; Extension of the 2024 Submission Period",
+      "pub_date": "2024-09-27",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This is a minor, one-time administrative deadline extension of approximately 8 weeks that appears responsive to industry concerns but does not fundamentally weaken chemical reporting requirements or create lasting regulatory changes."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2024-0196",
+      "title": "Phasedown of Hydrofluorocarbons: Review and Renewal of Eligibility for Application-Specific Allowances",
+      "pub_date": "2024-09-16",
+      "score": 42,
+      "confidence": "medium",
+      "key_finding": "This rule represents standard implementation of the AIM Act's allowance system with moderate accommodation for specific industrial applications, but operates within a congressionally-mandated phasedown framework rather than showing strong signs of industry capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2024-0065",
+      "title": "Phasedown of Hydrofluorocarbons: Vacated Provisions",
+      "pub_date": "2024-09-11",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "This rule reflects EPA's ministerial compliance with a court ruling that industry won, removing cylinder tracking and disposable cylinder prohibitions, but does not itself demonstrate active regulatory capture beyond industry's successful litigation strategy."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2023-0330",
+      "title": "Review of Final Rule Reclassification of Major Sources as Area Sources Under Section 112 of the Clean Air Act",
+      "pub_date": "2024-09-10",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule actually strengthens public health protections by closing a loophole that allowed major polluters to escape stringent NESHAP requirements for persistent and bioaccumulative pollutants through reclassification."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0549",
+      "title": "Perfluoroalkyl and Polyfluoroalkyl Substances (PFAS) Data Reporting and Recordkeeping Under the Toxic Substances Control Act (TSCA); Change to Submission Period and Technical Correction",
+      "pub_date": "2024-09-05",
+      "score": 58,
+      "confidence": "medium",
+      "key_finding": "EPA granted an 8-month delay in PFAS data reporting deadlines through a direct final rule process, postponing industry accountability for disclosing critical health and environmental effects data on these persistent 'forever chemicals.'"
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0549",
+      "title": "Perfluoroalkyl and Polyfluoroalkyl Substances (PFAS) Data Reporting and Recordkeeping Under the Toxic Substances Control Act (TSCA); Change to Submission Period and Technical Correction",
+      "pub_date": "2024-09-05",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This appears to be a legitimate administrative delay due to EPA's reporting system not being ready, rather than industry-driven regulatory capture, as the substantive PFAS reporting requirements remain unchanged."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0471",
+      "title": "1-Bromopropane (1-BP); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2024-08-08",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule represents genuine regulatory action on a hazardous chemical with strong public health protections, though transition periods and partial restrictions rather than complete bans suggest some accommodation of industry interests."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2002-0085, EPA-HQ-OAR-2003-0051",
+      "title": "National Emission Standards for Hazardous Air Pollutants for Coke Ovens: Pushing, Quenching, and Battery Stacks, and Coke Oven Batteries; Residual Risk and Technology Review, and Periodic Technology Review",
+      "pub_date": "2024-07-05",
+      "score": 45,
+      "confidence": "low",
+      "key_finding": "Based on the limited excerpt, EPA concluded existing coke oven emission standards are adequate without strengthening, which could reflect either genuine risk assessment findings or industry influence to avoid new compliance costs."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2020-0371",
+      "title": "New Source Performance Standards (NSPS) for the Synthetic Organic Chemical Manufacturing Industry (SOCMI) and National Emission Standards for Hazardous Air Pollutants (NESHAP) for the SOCMI and Group I & II Polymers and Resins Industry and NESHAP: Gasoline Distribution Technology Reviews and NSPS Review for Bulk Gasoline Terminals; Correction",
+      "pub_date": "2024-07-05",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This is a technical correction document that primarily fixes codification instructions and lifts long-standing regulatory stays, showing no direct evidence of regulatory capture and actually advancing implementation of previously delayed requirements."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2022-0678",
+      "title": "Water System Restructuring Assessment Rule",
+      "pub_date": "2024-05-30",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This appears to be a genuine public health initiative mandated by Congress to address failing water systems, with limited regulatory capture signals in the excerpt provided."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2021-0397",
+      "title": "Revisions to Standards for the Open Burning/Open Detonation of Waste Explosives; Extension of Comment Period",
+      "pub_date": "2024-05-16",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This is a routine procedural extension of a comment period with no substantive evidence of regulatory capture; the underlying rulemaking appears to strengthen rather than weaken oversight of open burning/detonation activities."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2023-0234",
+      "title": "Greenhouse Gas Reporting Rule: Revisions and Confidentiality Determinations for Petroleum and Natural Gas Systems",
+      "pub_date": "2024-05-14",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "While the rule shows genuine intent to improve emissions data accuracy, the self-reporting mechanism for determining waste emissions charges creates a significant conflict of interest where regulated entities control data affecting their own financial liability."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2020-0430",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Primary Copper Smelting Residual Risk and Technology Review and Primary Copper Smelting Area Source Technology Review",
+      "pub_date": "2024-05-13",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to represent genuine regulatory strengthening rather than capture, as it expands coverage to previously unregulated hazardous pollutants and eliminates the commonly exploited SSM exemption loophole."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2020-0371",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Gasoline Distribution Technology Reviews and New Source Performance Standards Review for Bulk Gasoline Terminals",
+      "pub_date": "2024-05-08",
+      "score": 28,
+      "confidence": "medium",
+      "key_finding": "This rule appears to represent genuine regulatory strengthening with significant projected emission reductions and closure of the SSM exemption loophole, showing limited signs of industry capture based on the excerpt provided."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2023-0496",
+      "title": "Procedures for Chemical Risk Evaluation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2024-05-03",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This procedural rule contains strong statutory language protecting health-first risk evaluation principles, though the 'reconsideration' framing and flexibility provisions warrant monitoring for implementation weakening."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2021-0791",
+      "title": "Water Quality Standards Regulatory Revisions To Protect Tribal Reserved Rights",
+      "pub_date": "2024-05-02",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a genuine expansion of environmental protections for Tribal reserved rights rather than an example of regulatory capture, as it creates new obligations on states and strengthens EPA oversight rather than weakening existing requirements."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2019-0424",
+      "title": "Revisions and Confidentiality Determinations for Data Elements Under the Greenhouse Gas Reporting Rule",
+      "pub_date": "2024-04-25",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to strengthen rather than weaken EPA's greenhouse gas reporting program by expanding coverage to new sectors and improving data quality requirements, showing limited signs of regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2014-0128",
+      "title": "Review of the Secondary National Ambient Air Quality Standards for Oxides of Nitrogen, Oxides of Sulfur, and Particulate Matter",
+      "pub_date": "2024-04-15",
+      "score": 45,
+      "confidence": "low",
+      "key_finding": "The proposal to retain existing standards for nitrogen oxides and PM without revision, combined with a vague range for the SO2 standard, suggests moderate industry influence, though the limited excerpt prevents full assessment of whether scientific evidence supported stronger protections."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2014-0128",
+      "title": "Public Hearing for the Secondary National Ambient Air Quality Standards for Oxides of Nitrogen, Oxides of Sulfur, and Particulate Matter",
+      "pub_date": "2024-04-15",
+      "score": 25,
+      "confidence": "low",
+      "key_finding": "This document is a procedural public hearing notice rather than a substantive rule, providing insufficient information to assess regulatory capture; the decision to retain NOx and PM standards while revising SO2 standards requires analysis of the underlying proposed rule to determine if industry influence affected outcomes."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2002-0083",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Integrated Iron and Steel Manufacturing Facilities Technology Review",
+      "pub_date": "2024-04-03",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to strengthen environmental protections by expanding HAP regulation to multiple previously unregulated emission sources in the iron and steel industry, showing limited signs of regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2021-0585",
+      "title": "Clean Water Act Hazardous Substance Facility Response Plans",
+      "pub_date": "2024-03-28",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule implements a long-overdue statutory mandate for hazardous substance facility response plans, representing genuine new environmental protection despite reliance on industry self-certification mechanisms."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2021-0397",
+      "title": "Revisions to Standards for the Open Burning/Open Detonation of Waste Explosives",
+      "pub_date": "2024-03-20",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to strengthen environmental protections by requiring facilities to evaluate and use alternatives to open burning/detonation of waste explosives, showing limited signs of regulatory capture based on the available excerpt."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2023-0085",
+      "title": "Definition of Hazardous Waste Applicable to Corrective Action for Releases From Solid Waste Management Units",
+      "pub_date": "2024-03-06",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This rule appears to STRENGTHEN environmental protections by expanding the definition of hazardous waste for corrective action purposes, closing regulatory gaps that may have previously allowed facilities to avoid cleanup obligations - the opposite of regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2017-0664",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Taconite Iron Ore Processing",
+      "pub_date": "2024-03-06",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to strengthen environmental protections by adding first-time mercury MACT standards and revising acid gas limits for taconite processing, with limited visible signs of industry capture in the provided excerpt."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2023-0085",
+      "title": "Definition of Hazardous Waste Applicable to Corrective Action for Releases From Solid Waste Management Units",
+      "pub_date": "2024-02-08",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to STRENGTHEN environmental protection by expanding the definition of hazardous waste applicable to corrective action, closing a loophole that may have allowed some hazardous releases to escape cleanup requirements."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2023-0278",
+      "title": "Listing of Specific PFAS as Hazardous Constituents",
+      "pub_date": "2024-02-08",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule represents a genuine expansion of environmental protection against PFAS contamination, with EPA proactively listing nine harmful compounds as hazardous constituents based on scientific evidence, showing limited signs of industry capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2021-0736",
+      "title": "Clean Water Act Effluent Limitations Guidelines and Standards for the Meat and Poultry Products Point Source Category",
+      "pub_date": "2024-01-23",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to be a genuine strengthening of water quality protections for the meat and poultry industry, with limited capture signals visible in this excerpt beyond standard cost-benefit framing."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2023-0222",
+      "title": "Water Quality Standards To Protect Aquatic Life in the Delaware River",
+      "pub_date": "2024-01-08",
+      "score": 10,
+      "confidence": "medium",
+      "key_finding": "This document is merely a technical correction to a table in a proposed rule establishing protective dissolved oxygen standards for aquatic life, showing no signs of regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2023-0222",
+      "title": "Water Quality Standards To Protect Aquatic Life in the Delaware River",
+      "pub_date": "2023-12-21",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This rule appears to represent genuine environmental protection rather than regulatory capture, as EPA is proactively strengthening water quality standards to protect aquatic life propagation in the Delaware River following an Administrator's Determination that enhanced protections are necessary."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2023-0378",
+      "title": "Water Quality Standards To Protect Human Health in Florida",
+      "pub_date": "2023-12-08",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This proposed rule represents EPA exercising its federal oversight authority to STRENGTHEN water quality protections over industry objections, which is the opposite of regulatory capture - it reflects the agency acting against regulated industry interests to protect public health."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2021-0357",
+      "title": "Asbestos; Reporting and Recordkeeping Requirements Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2023-12-05",
+      "score": 5,
+      "confidence": "high",
+      "key_finding": "This document is merely a minor technical correction fixing paragraph cross-references in a previously published asbestos reporting rule, containing no substantive regulatory changes that could indicate capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2023-0142",
+      "title": "Potential Future Regulation for Emergency Release Notification Requirements for Animal Waste Air Emissions Under the Emergency Planning and Community Right-to-Know Act (EPCRA)",
+      "pub_date": "2023-11-17",
+      "score": 55,
+      "confidence": "medium",
+      "key_finding": "This ANPRM represents an attempt to restore previously eliminated reporting requirements, but the use of the slowest possible rulemaking vehicle (ANPRM) combined with explicit consideration of industry exemptions suggests continued industry influence over the pace and scope of regulation."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0527",
+      "title": "Adoption and Submittal of State Plans for Designated Facilities: Implementing Regulations Under Clean Air Act Section 111(d)",
+      "pub_date": "2023-11-17",
+      "score": 55,
+      "confidence": "medium",
+      "key_finding": "The rule's RULOF provisions and compliance flexibilities (trading/averaging) provide significant mechanisms for existing facilities to avoid stringent emission controls, though community engagement requirements suggest some countervailing public interest protections."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0642",
+      "title": "Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2023-10-31",
+      "score": 30,
+      "confidence": "medium",
+      "key_finding": "This rule represents a genuine public health action with EPA proposing a comprehensive phaseout of a known carcinogen, though time-limited exemptions and extended compliance timelines for certain industries suggest moderate industry accommodation within an otherwise protective framework."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2023-0496",
+      "title": "Procedures for Chemical Risk Evaluation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2023-10-30",
+      "score": 35,
+      "confidence": "low",
+      "key_finding": "This excerpt shows procedural amendments with both protective statutory language (no cost-benefit balancing, susceptible populations) and potentially concerning flexibility provisions, but insufficient text is provided to determine whether substantive requirements are being weakened."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2022-0389",
+      "title": "Finding That Lead Emissions From Aircraft Engines That Operate on Leaded Fuel Cause or Contribute to Air Pollution That May Reasonably Be Anticipated To Endanger Public Health and Welfare",
+      "pub_date": "2023-10-20",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This is a genuine public health protection measure establishing an endangerment finding for leaded aviation fuel, though actual emission standards are deferred to future rulemakings with no fixed timeline."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2020-0550",
+      "title": "Non-Hazardous Secondary Material Standards; Response to Petition",
+      "pub_date": "2023-10-18",
+      "score": 15,
+      "confidence": "high",
+      "key_finding": "This rule demonstrates resistance to regulatory capture, as EPA denied all three industry-requested amendments and actually strengthened one provision limiting non-fiber materials in paper recycling residuals."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2019-0482",
+      "title": "Vessel Incidental Discharge National Standards of Performance",
+      "pub_date": "2023-10-18",
+      "score": 42,
+      "confidence": "low",
+      "key_finding": "This supplemental notice shows signs of extended rulemaking timeline and reconsideration after stakeholder input, but the excerpt lacks sufficient detail to determine whether the 'supplemental regulatory options' weaken or strengthen environmental protections."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0549",
+      "title": "Toxic Substances Control Act Reporting and Recordkeeping Requirements for Perfluoroalkyl and Polyfluoroalkyl Substances",
+      "pub_date": "2023-10-11",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule represents a genuine regulatory effort to collect comprehensive PFAS data from industry as mandated by Congress, with broad applicability and retroactive requirements that suggest limited industry capture despite reliance on self-reporting mechanisms."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2023-0330",
+      "title": "Review of Final Rule Reclassification of Major Sources as Area Sources Under Section 112 of the Clean Air Act",
+      "pub_date": "2023-09-27",
+      "score": 20,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to be a corrective action that strengthens requirements for major-to-area source reclassification, reversing a 2018 industry-favorable policy by adding enforceable safeguards and closing loopholes."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2022-0128",
+      "title": "Clean Water Act Section 401 Water Quality Certification Improvement Rule",
+      "pub_date": "2023-09-27",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be an ANTI-capture action, rolling back a 2020 rule that favored industry by limiting state water quality certification authority, and restoring stronger state oversight powers."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2002-0083",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Integrated Iron and Steel Manufacturing Facilities Technology Review; Extension of Comment Period",
+      "pub_date": "2023-09-14",
+      "score": 20,
+      "confidence": "medium",
+      "key_finding": "This is a routine 15-day comment period extension that, while potentially benefiting industry commenters, shows minimal evidence of regulatory capture without examining the substance of the underlying proposed rule."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2022-0441",
+      "title": "Regulatory Requirements for New HAP Additions",
+      "pub_date": "2023-09-13",
+      "score": 35,
+      "confidence": "low",
+      "key_finding": "This procedural rule excerpt provides insufficient detail to assess capture; while it creates a framework for regulating newly-listed HAPs (a protective function), the special treatment of sources becoming 'major' solely due to HAP additions warrants scrutiny in the full rule text."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2003-0118",
+      "title": "Protection of Stratospheric Ozone: Determination 38 for Significant New Alternatives Policy Program",
+      "pub_date": "2023-09-08",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a routine, protective action expanding the list of approved ozone-safe alternatives, with minimal signs of regulatory capture and genuine environmental benefits."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2020-0430",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Primary Copper Smelting; Extension of Comment Period",
+      "pub_date": "2023-08-23",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "A modest 15-day comment period extension granted at a regulated company's specific request represents minor procedural accommodation to industry rather than substantive regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2002-0085, EPA-HQ-OAR-2003-0051",
+      "title": "National Emission Standards for Hazardous Air Pollutants for Coke Ovens: Pushing, Quenching, and Battery Stacks, and Coke Oven Batteries; Residual Risk and Technology Review, and Periodic Technology Review",
+      "pub_date": "2023-08-16",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to genuinely strengthen protections by closing the startup/shutdown exemption loophole, tightening leak limits, adding new HAP standards, and requiring fenceline monitoring, with minimal signs of regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2020-0276",
+      "title": "Clean Water Act Section 404 Tribal and State Program Regulation",
+      "pub_date": "2023-08-14",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule primarily facilitates state/tribal assumption of permitting authority with flexible minimum standards, which could benefit regulated industries through less uniform enforcement, but appears driven more by federalism principles than direct industry capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0427",
+      "title": "Renewable Fuel Standard (RFS) Program: Standards for 2023-2025 and Other Changes; Correction",
+      "pub_date": "2023-08-03",
+      "score": 10,
+      "confidence": "high",
+      "key_finding": "This rule is a purely technical correction of clerical errors in regulatory text formatting and contains no substantive policy changes that could indicate regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2023-0234",
+      "title": "Greenhouse Gas Reporting Rule: Revisions and Confidentiality Determinations for Petroleum and Natural Gas Systems",
+      "pub_date": "2023-08-01",
+      "score": 35,
+      "confidence": "low",
+      "key_finding": "This excerpt shows a rule primarily aimed at improving emissions reporting accuracy for methane fee implementation, with self-reporting mechanisms that warrant scrutiny but without clear evidence of significant regulatory capture in the summary language."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2002-0083",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Integrated Iron and Steel Manufacturing Facilities Technology Review",
+      "pub_date": "2023-07-31",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to genuinely strengthen environmental protections by expanding coverage to previously unregulated pollutants and sources while significantly tightening opacity limits, showing limited signs of regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0592",
+      "title": "Carbon Tetrachloride (CTC); Regulation Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2023-07-28",
+      "score": 52,
+      "confidence": "medium",
+      "key_finding": "The rule allows continued CTC use in HFO production with workplace controls rather than prohibition, explicitly justified by supporting industry's refrigerant transition goals under the AIM Act."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2021-0357",
+      "title": "Asbestos; Reporting and Recordkeeping Requirements Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2023-07-25",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule represents a legitimate information-gathering step under TSCA, but its reliance on self-reporting and one-time data collection delays substantive regulatory action on a known carcinogen."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2020-0430",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Primary Copper Smelting",
+      "pub_date": "2023-07-24",
+      "score": 35,
+      "confidence": "low",
+      "key_finding": "This supplemental rulemaking appears to strengthen protections by adding standards for additional hazardous pollutants (benzene, dioxins, PAH, etc.), though the excerpt lacks sufficient detail to assess whether revised provisions weaken or strengthen the original 2022 proposal."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2022-0430",
+      "title": "Phasedown of Hydrofluorocarbons: Allowance Allocation Methodology for 2024 and Later Years",
+      "pub_date": "2023-07-20",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a legitimate implementation of the AIM Act's HFC phasedown mandate with standard administrative provisions, showing limited signs of regulatory capture and maintaining the core environmental protection framework."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2022-0902",
+      "title": "Updates to New Chemicals Regulations Under the Toxic Substances Control Act (TSCA); Extension of Comment Period",
+      "pub_date": "2023-07-19",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This is a routine procedural extension of a comment period by 14 days, which alone provides insufficient evidence of regulatory capture and is standard administrative practice applicable to all stakeholders."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2020-0044",
+      "title": "Rescinding the Rule on Increasing Consistency and Transparency in Considering Benefits and Costs in the Clean Air Act Rulemaking Process",
+      "pub_date": "2023-07-13",
+      "score": 20,
+      "confidence": "medium",
+      "key_finding": "This rescission actually REDUCES regulatory capture by removing a Trump-era rule that imposed industry-favorable cost-benefit constraints on EPA's Clean Air Act authority, restoring the agency's ability to prioritize public health."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0427",
+      "title": "Renewable Fuel Standard (RFS) Program: Standards for 2023-2025 and Other Changes",
+      "pub_date": "2023-07-12",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "The rule maintains the RFS program structure but shows signs of accommodation to biofuel industry through delayed provisions and withdrawal of renewable electricity RIN generation, suggesting moderate industry influence without complete capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OPA-2006-0090",
+      "title": "National Oil and Hazardous Substances Pollution Contingency Plan; Product Schedule Listing and Authorization of Use Requirements",
+      "pub_date": "2023-06-28",
+      "score": 5,
+      "confidence": "high",
+      "key_finding": "This document is a routine technical correction fixing equation display errors in the Federal Register and contains no substantive regulatory changes that would indicate industry capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2017-0664",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Taconite Iron Ore Processing Amendments; Extension of Comment Period",
+      "pub_date": "2023-06-28",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This procedural notice extending a comment period by 8 days shows minimal evidence of regulatory capture; it is a routine administrative action that provides marginally more time for all stakeholders, not a substantive weakening of environmental standards."
+    },
+    {
+      "docket_id": "EPA-HQ-OPA-2006-0090",
+      "title": "National Oil and Hazardous Substances Pollution Contingency Plan; Product Schedule Listing and Authorization of Use Requirements",
+      "pub_date": "2023-06-12",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule appears to genuinely strengthen environmental protections for oil spill response chemicals through enhanced testing and listing requirements, though the 17-year rulemaking timeline and reliance on manufacturer-submitted testing data suggest some industry-favorable accommodations."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0668",
+      "title": "Federal \u201cGood Neighbor Plan\u201d for the 2015 Ozone National Ambient Air Quality Standards",
+      "pub_date": "2023-06-05",
+      "score": 28,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a genuine protective action imposing federal requirements on states and industries that resisted compliance, with only moderate capture signals related to extended timelines for non-power plant industries."
+    },
+    {
+      "docket_id": "EPA-HQ-OPP-2019-0508",
+      "title": "Pesticides; Exemptions of Certain Plant-Incorporated Protectants (PIPs) Derived From Newer Technologies",
+      "pub_date": "2023-05-31",
+      "score": 72,
+      "confidence": "medium",
+      "key_finding": "This rule represents a significant deregulatory shift that exempts genetically engineered plant-incorporated protectants from pre-market registration and food safety tolerance requirements, reversing two decades of regulatory policy in ways that primarily benefit biotech and chemical manufacturers."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2022-0902",
+      "title": "Updates to New Chemicals Regulations Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2023-05-26",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to strengthen rather than weaken chemical oversight, particularly by eliminating exemptions for PFAS and PBT substances and requiring pre-approval before manufacturing under exemptions."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2019-0424",
+      "title": "Revisions and Confidentiality Determinations for Data Elements Under the Greenhouse Gas Reporting Rule",
+      "pub_date": "2023-05-22",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to strengthen rather than weaken greenhouse gas reporting requirements, expanding coverage to new sectors and improving data quality, showing limited signs of regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2017-0664",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Taconite Iron Ore Processing Amendments",
+      "pub_date": "2023-05-15",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to strengthen environmental protections by adding mercury emission standards and revising existing HAP standards, though the full text is needed to determine whether hydrogen chloride/fluoride revisions represent strengthening or weakening of requirements."
+    },
+    {
+      "docket_id": "EPA-HQ-OPP-2019-0508",
+      "title": "Notification of Submission to the Secretary of Agriculture; Pesticides; Exemptions of Certain Plant-Incorporated Protectants (PIPs) Derived From Newer Technologies; Draft Final Rule",
+      "pub_date": "2023-05-09",
+      "score": 55,
+      "confidence": "low",
+      "key_finding": "This procedural notice announces a forthcoming rule that will exempt certain genetically engineered pesticides from full EPA registration, but the substantive content is withheld, making full capture analysis impossible until the actual rule is published."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2016-0405",
+      "title": "Federal Baseline Water Quality Standards for Indian Reservations",
+      "pub_date": "2023-05-05",
+      "score": 22,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a genuine protective measure establishing baseline water quality standards where none existed, with minimal signs of regulatory capture and strong environmental justice components for Tribal communities."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2022-0922",
+      "title": "Addressing PFAS in the Environment",
+      "pub_date": "2023-04-13",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This ANPRM represents genuine EPA effort to expand PFAS regulation under CERCLA, though the preliminary nature of the proceeding after decades of known contamination reflects historical regulatory delay that has benefited chemical manufacturers."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2019-0055",
+      "title": "Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards; Correction",
+      "pub_date": "2023-03-13",
+      "score": 5,
+      "confidence": "high",
+      "key_finding": "This is a routine administrative correction fixing typographical errors in regulatory citations, with no substantive policy changes and no evidence of regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2018-0794",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Coal- and Oil-Fired Electric Utility Steam Generating Units-Revocation of the 2020 Reconsideration and Affirmation of the Appropriate and Necessary Supplemental Finding",
+      "pub_date": "2023-03-06",
+      "score": 15,
+      "confidence": "high",
+      "key_finding": "This rule represents an ANTI-capture action that reverses a prior industry-favorable deregulatory decision, restoring hazardous air pollutant protections for communities near coal and oil-fired power plants."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2019-0055",
+      "title": "Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards",
+      "pub_date": "2023-01-24",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to strengthen rather than weaken heavy-duty vehicle emissions standards, with genuinely more stringent requirements and extended compliance periods, showing limited signs of regulatory capture based on the excerpt provided."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2021-0602",
+      "title": "Revised Definition of \u201cWaters of the United States\u201d",
+      "pub_date": "2023-01-18",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "This rule reflects ongoing regulatory instability in WOTUS definition driven by litigation and political shifts, though this particular 2023 iteration was designed to restore protections before being largely invalidated by the Supreme Court's Sackett decision months later."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0427",
+      "title": "Renewable Fuel Standard (RFS) Program: Standards for 2023-2025 and Other Changes",
+      "pub_date": "2022-12-30",
+      "score": 45,
+      "confidence": "low",
+      "key_finding": "The excerpt shows standard regulatory process without clear capture evidence, though the remand reconsideration and multi-year standard-setting approach favor biofuel industry planning needs over aggressive environmental advancement."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0527",
+      "title": "Adoption and Submittal of State Plans for Designated Facilities: Implementing Regulations Under Clean Air Act Section 111(d)",
+      "pub_date": "2022-12-23",
+      "score": 40,
+      "confidence": "medium",
+      "key_finding": "This procedural rule shows moderate industry-friendly provisions through compliance flexibility mechanisms and timeline revisions, but is counterbalanced by genuine community engagement requirements reflecting environmental justice priorities."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2002-0021",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Site Remediation",
+      "pub_date": "2022-12-22",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This rule demonstrates the opposite of regulatory capture - EPA is closing exemption loopholes and expanding NESHAP coverage to previously exempt CERCLA and RCRA site remediation activities, strengthening public health protections."
+    },
+    {
+      "docket_id": "EPA-R08-OAR-2015-0709",
+      "title": "Federal Implementation Plan for Managing Emissions From Oil and Natural Gas Sources on Indian Country Lands Within the Uintah and Ouray Indian Reservation in Utah",
+      "pub_date": "2022-12-08",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a legitimate environmental protection action closing a regulatory gap on tribal lands rather than exhibiting regulatory capture, though the multi-year delay in establishing these protections (docket opened 2015, finalized 2022) may have benefited industry."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2021-0791",
+      "title": "Water Quality Standards Regulatory Revisions To Protect Tribal Reserved Rights",
+      "pub_date": "2022-12-05",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to strengthen rather than weaken environmental protections by creating new regulatory requirements to protect tribal reserved rights, which would likely impose additional constraints on industrial dischargers rather than benefit them."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0845",
+      "title": "Renewable Fuel Standard Program: Canola Oil Pathways to Renewable Diesel, Jet Fuel, Naphtha, Liquefied Petroleum Gas, and Heating Oil",
+      "pub_date": "2022-12-02",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a straightforward technical expansion of approved renewable fuel pathways that maintains environmental standards rather than exhibiting classic regulatory capture patterns."
+    },
+    {
+      "docket_id": "EPA-R10-OAR-2020-0361",
+      "title": "Federal Implementation Plans Under the Clean Air Act for Indian Reservations in Idaho, Oregon, and Washington; Correction",
+      "pub_date": "2022-11-25",
+      "score": 5,
+      "confidence": "high",
+      "key_finding": "This is a routine administrative correction fixing a text duplication error in a proposed rule's preamble, with no substantive regulatory changes and no signs of industry capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2020-0549",
+      "title": "TSCA Section 8(a)(7) Reporting and Recordkeeping Requirements for Perfluoroalkyl and Polyfluoroalkyl Substances; Notice of Data Availability and Request for Comment",
+      "pub_date": "2022-11-25",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule represents a congressionally-mandated PFAS reporting requirement where EPA has limited discretion to weaken protections, though the emphasis on economic analysis and CBI protections shows some industry influence in implementation details."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2022-0430",
+      "title": "Phasedown of Hydrofluorocarbons: Allowance Allocation Methodology for 2024 and Later Years",
+      "pub_date": "2022-11-03",
+      "score": 20,
+      "confidence": "medium",
+      "key_finding": "This rule appears to genuinely implement congressionally-mandated HFC phasedown requirements with limited evidence of regulatory capture in the provided excerpt, though the industry categorization as 'fossil fuel industry' is a mismatch\u2014HFC producers (refrigerant/chemical industry) are the regulated parties."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2022-0389",
+      "title": "Proposed Finding That Lead Emissions From Aircraft Engines That Operate on Leaded Fuel Cause or Contribute to Air Pollution That May Reasonably Be Anticipated To Endanger Public Health and Welfare",
+      "pub_date": "2022-10-17",
+      "score": 20,
+      "confidence": "medium",
+      "key_finding": "This rule excerpt shows minimal capture signals and represents a genuine public health-protective action initiating regulation of leaded aviation fuel, though the industry identified (automotive/trucking) appears mismatched\u2014this concerns aviation/general aviation industry."
+    },
+    {
+      "docket_id": "EPA-R10-OAR-2020-0361",
+      "title": "Federal Implementation Plans Under the Clean Air Act for Indian Reservations in Idaho, Oregon, and Washington",
+      "pub_date": "2022-10-12",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to genuinely strengthen air quality protections for tribal communities rather than exhibiting regulatory capture, as it expands coverage, adds new particulate matter controls, and updates standards that had been static since 2005."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2002-0058",
+      "title": "National Emission Standards for Hazardous Air Pollutants for Major Sources: Industrial, Commercial, and Institutional Boilers and Process Heaters",
+      "pub_date": "2022-10-06",
+      "score": 58,
+      "confidence": "medium",
+      "key_finding": "This rule represents a court-ordered reconsideration of emission standards that has extended a 20-year rulemaking process, with the use of surrogate pollutant measurements suggesting industry successfully advocated for less stringent direct monitoring requirements."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2022-0434",
+      "title": "Renewable Fuel Standard (RFS) Program: Alternative RIN Retirement Schedule for Small Refineries",
+      "pub_date": "2022-09-02",
+      "score": 72,
+      "confidence": "high",
+      "key_finding": "EPA grants small refineries a 3+ year compliance extension for renewable fuel obligations, effectively delaying environmental benefits of the RFS program while citing its own delays in processing industry exemption petitions as justification."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2020-0371",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Gasoline Distribution Technology Review and Standards of Performance for Bulk Gasoline Terminals Review",
+      "pub_date": "2022-08-12",
+      "score": 35,
+      "confidence": "low",
+      "key_finding": "This excerpt primarily announces a 30-day comment period extension, which is a minor procedural action that could indicate industry pressure but does not provide sufficient substantive content to assess whether the underlying proposed rule represents regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2019-0307",
+      "title": "Improvements for Heavy-Duty Engine and Vehicle Test Procedures",
+      "pub_date": "2022-07-28",
+      "score": 42,
+      "confidence": "medium",
+      "key_finding": "This technical rule provides industry-favorable 'flexibilities' and reverts compliance modeling to an older baseline, though it operates within the framework of existing emissions standards rather than fundamentally weakening them."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2019-0424",
+      "title": "Revisions and Confidentiality Determinations for Data Elements Under the Greenhouse Gas Reporting Rule; Extension of Comment Period",
+      "pub_date": "2022-07-19",
+      "score": 35,
+      "confidence": "low",
+      "key_finding": "This procedural comment period extension is a minor delay signal, but the underlying rule's focus on 'confidentiality determinations' for GHG data warrants scrutiny for potential industry-favorable data shielding provisions."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0324",
+      "title": "Renewable Fuel Standard (RFS) Program: RFS Annual Rules",
+      "pub_date": "2022-07-01",
+      "score": 62,
+      "confidence": "medium",
+      "key_finding": "EPA exercised statutory waiver authority to reduce congressionally-mandated biofuel volume targets, retroactively modifying requirements in ways that benefit petroleum refiners while potentially undermining renewable fuel production incentives."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2019-0424",
+      "title": "Revisions and Confidentiality Determinations for Data Elements Under the Greenhouse Gas Reporting Rule",
+      "pub_date": "2022-06-21",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to be a legitimate technical improvement to greenhouse gas reporting requirements rather than a captured rollback, though confidentiality provisions and flexibility language warrant monitoring for potential weakening during final rulemaking."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0253",
+      "title": "Protection of Stratospheric Ozone: Standards Related to the Manufacture of Class II Ozone-Depleting Substances for Feedstock; Withdrawal of Proposed Rule",
+      "pub_date": "2022-06-16",
+      "score": 75,
+      "confidence": "medium",
+      "key_finding": "EPA's complete withdrawal of proposed HFC-23 emission control requirements represents a significant regulatory retreat that benefits HCFC-22 manufacturers by eliminating anticipated compliance obligations for controlling a potent greenhouse gas byproduct."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2022-0434",
+      "title": "Renewable Fuel Standard (RFS) Program: Alternative RIN Retirement Schedule for Small Refineries",
+      "pub_date": "2022-06-13",
+      "score": 75,
+      "confidence": "high",
+      "key_finding": "This rule provides petroleum refineries significant compliance relief by extending deadlines for renewable fuel obligations from 2020 into 2022, effectively delaying environmental requirements after industry sought exemptions."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2020-0371",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Gasoline Distribution Technology Review and Standards of Performance for Bulk Gasoline Terminals Review",
+      "pub_date": "2022-06-10",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to be a genuine strengthening of emission standards with significant projected pollution reductions, particularly by addressing startup/shutdown/malfunction emissions loopholes, showing limited signs of regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OW-2022-0128",
+      "title": "Clean Water Act Section 401 Water Quality Certification Improvement Rule",
+      "pub_date": "2022-06-09",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be reversing a potentially captured 2020 Trump-era rule rather than exhibiting capture itself, aiming to restore state certification authority and align with original CWA environmental protection goals."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2019-0698",
+      "title": "Protection of Stratospheric Ozone: Listing of Substitutes Under the Significant New Alternatives Policy Program; Withdrawal of Proposed Rule",
+      "pub_date": "2022-05-20",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "The withdrawal creates regulatory ambiguity that could benefit either incumbent industries using existing substances or newer competitors depending on market dynamics, but the lack of detailed justification in the excerpt makes definitive capture assessment difficult."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2021-0585",
+      "title": "Clean Water Act Hazardous Substance Worst Case Discharge Planning Regulations; Extension of Comment Period",
+      "pub_date": "2022-05-16",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This is a routine procedural extension of a comment period that, while slightly delaying new protective regulations, is a standard administrative practice and does not by itself indicate significant regulatory capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2020-0560",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Mercury Cell Chlor-Alkali Plants Residual Risk and Technology Review",
+      "pub_date": "2022-05-06",
+      "score": 25,
+      "confidence": "high",
+      "key_finding": "This rule represents a genuine strengthening of environmental protection by mandating complete elimination of mercury emissions and adding new chlorine regulations, with only modest capture signals in the form of a three-year compliance timeline."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2021-0357",
+      "title": "Asbestos; Reporting and Recordkeeping Requirements Under the Toxic Substances Control Act (TSCA)",
+      "pub_date": "2022-05-06",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This is a modest data-gathering rule that relies on industry self-reporting but includes meaningful provisions covering asbestos impurities and mixtures; it represents a preliminary step rather than robust regulation of a known carcinogen."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0347",
+      "title": "Protection of Stratospheric Ozone: Listing of HFO-1234yf Under the Significant New Alternatives Policy Program for Motor Vehicle Air Conditioning in Nonroad Vehicles and Servicing Fittings for Small Refrigerant Cans",
+      "pub_date": "2022-05-04",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a legitimate environmental protection measure facilitating transition to lower-GWP refrigerants, though reliance on industry-developed SAE standards rather than EPA-developed standards represents moderate industry influence over technical compliance requirements."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0845",
+      "title": "Renewable Fuel Standard Program: Canola Oil Pathways to Renewable Diesel, Jet Fuel, Naphtha, Liquefied Petroleum Gas and Heating Oil",
+      "pub_date": "2022-04-18",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a routine pathway approval under the existing RFS framework rather than a captured regulatory action, as it maintains statutory GHG thresholds while expanding market opportunities for renewable fuel producers."
+    },
+    {
+      "docket_id": "EPA-HQ-OPP-2020-0124",
+      "title": "Pesticide Product Performance Data Requirements for Products Claiming Efficacy Against Certain Invertebrate Pests",
+      "pub_date": "2022-04-15",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to strengthen rather than weaken regulatory oversight by codifying efficacy data requirements, ensuring pesticides claiming to control dangerous invertebrate pests must demonstrate they actually work before registration."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2021-0668",
+      "title": "Federal Implementation Plan Addressing Regional Ozone Transport for the 2015 Ozone National Ambient Air Quality Standard",
+      "pub_date": "2022-04-06",
+      "score": 32,
+      "confidence": "medium",
+      "key_finding": "This rule represents a genuine EPA enforcement action under the Clean Air Act's good neighbor provision, with modest industry-friendly elements like emissions trading and staggered compliance timelines that are standard regulatory features rather than clear capture indicators."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2019-0055",
+      "title": "Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards",
+      "pub_date": "2022-03-28",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to genuinely strengthen heavy-duty vehicle emissions standards with extended useful life and warranty requirements, showing limited signs of regulatory capture despite some industry-favorable lead time provisions."
+    },
+    {
+      "docket_id": "EPA-HQ-OLEM-2021-0585",
+      "title": "Clean Water Act Hazardous Substance Worst Case Discharge Planning Regulations",
+      "pub_date": "2022-03-28",
+      "score": 25,
+      "confidence": "low",
+      "key_finding": "The rule excerpt shows EPA implementing a long-delayed statutory mandate for hazardous substance discharge planning, with the limited text available suggesting genuine environmental protection rather than significant industry capture."
+    },
+    {
+      "docket_id": "EPA-HQ-OPPT-2021-0598",
+      "title": "Regulation of Persistent, Bioaccumulative, and Toxic Chemicals Under TSCA Section 6(h); Phenol, Isopropylated Phosphate (3:1); Further Compliance Date Extension",
+      "pub_date": "2022-03-08",
+      "score": 72,
+      "confidence": "high",
+      "key_finding": "This rule represents a repeated compliance deadline extension for a known toxic chemical, following a pattern of delays that prioritizes industry adjustment timelines over the prompt protection of public health from persistent, bioaccumulative toxicants."
+    },
+    {
+      "docket_id": "EPA-HQ-OPP-2020-0124",
+      "title": "Notification of Submission to the Secretary of Agriculture; Pesticide Product Performance Data Requirements for Products Claiming Efficacy Against Certain Invertebrate Pests",
+      "pub_date": "2022-03-01",
+      "score": 15,
+      "confidence": "low",
+      "key_finding": "This document is merely a procedural notification of USDA consultation required by FIFRA and contains no substantive rule text to evaluate for regulatory capture signals."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2020-0430",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Primary Copper Smelting Residual Risk and Technology Review and Primary Copper Smelting Area Source Technology Review; Extension of Comment Period",
+      "pub_date": "2022-02-24",
+      "score": 30,
+      "confidence": "low",
+      "key_finding": "This is a procedural comment period extension rather than a substantive rule, making it difficult to assess capture; while extensions can benefit industry by delaying regulations, this one also explicitly serves Tribal consultation needs."
+    },
+    {
+      "docket_id": "EPA-HQ-OAR-2018-0794",
+      "title": "National Emission Standards for Hazardous Air Pollutants: Coal- and Oil-Fired Electric Utility Steam Generating Units-Revocation of the 2020 Reconsideration, and Affirmation of the Appropriate and Necessary Supplemental Finding; Notice of Proposed Rulemaking",
+      "pub_date": "2022-02-09",
+      "score": 20,
+      "confidence": "high",
+      "key_finding": "This proposed rule represents ANTI-capture action - EPA is reversing a Trump-era industry-favorable weakening of mercury and air toxics standards for power plants, restoring stronger public health protections."
+    }
+  ]
+}

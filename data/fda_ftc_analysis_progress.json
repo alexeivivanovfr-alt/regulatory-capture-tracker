@@ -1,0 +1,724 @@
+{
+  "analyzed": [
+    "FDA-2023-N-4225",
+    "FDA-2021-N-0862",
+    "FDA-2021-N-0862",
+    "FDA-2024-N-2910",
+    "FDA-2022-N-1635",
+    "FDA-2020-N-1395",
+    "FDA-2021-N-0471",
+    "FDA-2022-N-1635",
+    "FDA-2023-N-0061",
+    "FDA-2018-N-2727",
+    "FDA-2019-N-4750",
+    "FDA-2009-N-0582",
+    "FDA-2014-N-0053",
+    "FDA-2013-N-0227",
+    "FDA-2019-N-4750",
+    "FDA-2019-N-4750",
+    "FDA-2022-N-2226",
+    "FDA-2013-N-0134",
+    "FDA-2013-N-0227",
+    "95-051P",
+    "FDA-2014-N-0053",
+    "FDA-2020-N-0258",
+    "FDA-2019-N-3065",
+    "FDA-2014-N-0053",
+    "FDA-2018-N-4268",
+    "FDA-2019-N-5553",
+    "FDA-2019-N-3065",
+    "FDA-2021-N-0555",
+    "FDA-2019-N-3065",
+    "HHS-OS-2020-0012",
+    "FDA-2020-N-1663",
+    "FDA-2018-N-1815",
+    "HHS-OS-2020-0012",
+    "FDA-2019-N-3065",
+    "FDA-2020-N-1663",
+    "FDA-2020-N-1519",
+    "FDA-2019-N-3065",
+    "HHS-OS-2020-0012",
+    "FDA-2021-N-0555",
+    "FDA-2019-N-2854",
+    "FDA-2018-N-0236",
+    "FDA-2016-N-3818",
+    "FDA-2019-N-3065",
+    "FDA-2015-N-2002",
+    "FDA-2019-N-3065",
+    "FDA-2005-N-0464",
+    "HHS-OS-2020-0012",
+    "HHS-OS-2020-0012",
+    "FDA-2019-N-3065",
+    "FDA-2020-N-1519",
+    "FDA-2014-N-0053",
+    "Docket Number HHS-OS-2020-0015",
+    "Docket Number HHS-OS-2020-0015",
+    "FDA-2019-N-5711",
+    "FDA-2015-N-2002",
+    "FDA-2014-N-0053",
+    "FDA-2017-N-6381",
+    "FDA-2019-N-5553",
+    "FDA-2014-N-1021",
+    "FDA-2014-N-1021",
+    "FDA-2018-N-4268",
+    "FDA-2017-N-6381",
+    "FDA-2019-N-5553",
+    "FDA-2019-N-3065",
+    "FDA-2019-N-3065",
+    "FDA-2019-N-2854",
+    "FDA-1995-N-0062 (Formerly 1995N-0294)",
+    "FDA-2019-N-5711",
+    "FDA-2019-N-2854",
+    "FDA-2019-N-3065",
+    "FDA-2011-F-0171",
+    "FDA-2019-N-2854",
+    "FDA-2019-N-3065",
+    "FDA-2016-N-3818",
+    "2026-02866",
+    "2023-26966",
+    "2020-19515",
+    "2020-02759",
+    "2017-13470"
+  ],
+  "results": [
+    {
+      "docket_id": "FDA-2023-N-0061",
+      "title": "Drug Products or Categories of Drug Products That Present Demonstrable Difficulties for Compounding Under Sections 503A or 503B of the Federal Food, Drug, and Cosmetic Act",
+      "pub_date": "2024-03-20",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule appears to serve legitimate patient safety goals by restricting difficult-to-compound drugs, though the structural effect of limiting compounding pharmacy competition with brand manufacturers warrants monitoring for industry-favorable implementation."
+    },
+    {
+      "docket_id": "FDA-2018-N-2727",
+      "title": "Institutional Review Board Waiver or Alteration of Informed Consent for Minimal Risk Clinical Investigations",
+      "pub_date": "2023-12-21",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule implements a Congressional mandate (21st Century Cures Act) to harmonize FDA consent requirements with existing Common Rule standards, representing legitimate regulatory modernization rather than industry-driven capture, though the expanded waiver authority does provide operational benefits to research sponsors."
+    },
+    {
+      "docket_id": "FDA-2019-N-4750",
+      "title": "Revocation of Uses of Partially Hydrogenated Oils in Foods; Confirmation of Effective Date",
+      "pub_date": "2023-12-14",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "high",
+      "key_finding": "This rule represents a genuine public health protection action where FDA removed a harmful ingredient from the food supply over industry objections, revoking even pre-1958 grandfather protections - the opposite of regulatory capture."
+    },
+    {
+      "docket_id": "FDA-2009-N-0582",
+      "title": "Direct-to-Consumer Prescription Drug Advertisements: Presentation of the Major Statement in a Clear, Conspicuous, and Neutral Manner in Advertisements in Television and Radio Format",
+      "pub_date": "2023-11-21",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "While this rule genuinely strengthens consumer protections for prescription drug advertising disclosures, the 16-year delay from statutory mandate to final rule suggests industry successfully delayed implementation, though the rule itself does not appear structurally captured."
+    },
+    {
+      "docket_id": "FDA-2014-N-0053",
+      "title": "Requirements for Additional Traceability Records for Certain Foods; Technical Amendment",
+      "pub_date": "2023-09-26",
+      "agency": "FDA",
+      "score": 5,
+      "confidence": "high",
+      "key_finding": "This is a purely technical amendment correcting typographical errors and incorrect internal cross-references, with no substantive policy changes that would indicate regulatory capture."
+    },
+    {
+      "docket_id": "FDA-2013-N-0227",
+      "title": "Proposed Requirements for Tobacco Product Manufacturing Practice; Extension of Comment Period",
+      "pub_date": "2023-08-29",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "low",
+      "key_finding": "This procedural notice extending a comment period by 30 days contains minimal substantive content to assess for regulatory capture; the extension itself is routine, though the identity of the requester and pattern of extensions would be needed to evaluate industry influence."
+    },
+    {
+      "docket_id": "FDA-2019-N-4750",
+      "title": "Revocation of Uses of Partially Hydrogenated Oils in Foods",
+      "pub_date": "2023-08-09",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "high",
+      "key_finding": "This rule represents genuine consumer protection action, not regulatory capture - FDA is actively revoking industry permissions and removing harmful substances from food supply based on public health determinations made in 2015."
+    },
+    {
+      "docket_id": "FDA-2019-N-4750",
+      "title": "Revocation of Uses of Partially Hydrogenated Oils in Foods; Companion Document to Direct Final Rule",
+      "pub_date": "2023-08-09",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "high",
+      "key_finding": "This rule represents strong consumer protection action - FDA is comprehensively revoking industry's ability to use trans fats across multiple product categories based on clear health harm findings, showing FDA prioritizing public health over industry convenience."
+    },
+    {
+      "docket_id": "FDA-2022-N-2226",
+      "title": "Use of Salt Substitutes To Reduce the Sodium Content in Standardized Foods",
+      "pub_date": "2023-04-10",
+      "agency": "FDA",
+      "score": 22,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a genuine public health initiative to reduce dietary sodium by permitting salt substitutes, with industry-favorable 'flexibility' language present but not dominant over the consumer health mission."
+    },
+    {
+      "docket_id": "FDA-2013-N-0134",
+      "title": "Mammography Quality Standards Act",
+      "pub_date": "2023-03-10",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This rule represents a strengthening of consumer protections under MQSA rather than regulatory capture, with new breast density notification mandates, enhanced patient communication requirements, and stronger enforcement mechanisms against noncompliant facilities."
+    },
+    {
+      "docket_id": "FDA-2013-N-0227",
+      "title": "Requirements for Tobacco Product Manufacturing Practice",
+      "pub_date": "2023-03-10",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "low",
+      "key_finding": "The excerpt shows a significant 10-year delay from docket opening to proposed rule, but the substantive text provided is largely procedural and lacks sufficient detail on actual manufacturing standards, exemptions, or compliance timelines to fully assess capture signals."
+    },
+    {
+      "docket_id": "95-051P",
+      "title": "Food Standards; General Principles and Food Standards Modernization; Withdrawal of Proposed Rule",
+      "pub_date": "2023-03-01",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This withdrawal represents regulatory stagnation rather than overt capture\u2014an 18-year failure to modernize food standards that maintains industry's preferred status quo without establishing new protective frameworks."
+    },
+    {
+      "docket_id": "FDA-2014-N-0053",
+      "title": "Requirements for Additional Traceability Records for Certain Foods",
+      "pub_date": "2023-02-01",
+      "agency": "FDA",
+      "score": 5,
+      "confidence": "high",
+      "key_finding": "This document is merely a minor formatting correction to a previously published rule, fixing a typographical/formatting error on page 71077, and contains no substantive regulatory changes that could indicate regulatory capture."
+    },
+    {
+      "docket_id": "FDA-2020-N-0258",
+      "title": "Investigational New Drug Application Annual Reporting",
+      "pub_date": "2022-12-09",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to STRENGTHEN rather than weaken drug safety oversight by requiring more comprehensive annual safety reporting, representing a rare case of regulatory enhancement rather than capture."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements; Delayed Effective Date",
+      "pub_date": "2022-11-25",
+      "agency": "FDA",
+      "score": 65,
+      "confidence": "medium",
+      "key_finding": "Tobacco industry litigation in a plaintiff-friendly Texas court has effectively delayed congressionally-mandated graphic cigarette warnings for over 14 years since passage of the Tobacco Control Act, with FDA repeatedly publishing delay notices rather than vigorously defending the rule."
+    },
+    {
+      "docket_id": "FDA-2014-N-0053",
+      "title": "Requirements for Additional Traceability Records for Certain Foods",
+      "pub_date": "2022-11-21",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule implements genuine food safety traceability improvements mandated by FSMA, though the 11-year delay from statutory mandate to final rule and limited FTL scope suggest some industry influence in slowing and narrowing implementation."
+    },
+    {
+      "docket_id": "FDA-2018-N-4268",
+      "title": "Submission of Food and Drug Administration Import Data in the Automated Commercial Environment for Veterinary Devices",
+      "pub_date": "2022-10-18",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "high",
+      "key_finding": "This is a routine administrative rule that extends existing import data requirements to veterinary devices, representing a modest strengthening of regulatory oversight rather than evidence of industry capture."
+    },
+    {
+      "docket_id": "FDA-2019-N-5553",
+      "title": "Annual Summary Reporting Requirements Under the Right to Try Act",
+      "pub_date": "2022-09-14",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule implements congressionally-mandated reporting requirements for Right to Try drugs and, while relying on industry self-reporting, represents FDA establishing some oversight structure over a program that was designed by Congress to bypass traditional FDA approval pathways."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements; Delayed Effective Date",
+      "pub_date": "2022-08-18",
+      "agency": "FDA",
+      "score": 72,
+      "confidence": "high",
+      "key_finding": "Tobacco industry has successfully used litigation in a plaintiff-friendly court (Eastern District of Texas) to delay congressionally-mandated graphic cigarette warnings for years, with FDA passively accepting serial postponements rather than aggressively defending public health requirements enacted in 2009."
+    },
+    {
+      "docket_id": "FDA-2021-N-0555",
+      "title": "Medical Devices; Ear, Nose, and Throat Devices; Establishing Over-the-Counter Hearing Aids",
+      "pub_date": "2022-08-17",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule represents pro-consumer deregulation mandated by Congress to break incumbent hearing aid industry control and increase market competition, which is the opposite of traditional regulatory capture - it harms established industry players by enabling new market entrants and direct-to-consumer sales."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements; Delayed Effective Date",
+      "pub_date": "2022-06-01",
+      "agency": "FDA",
+      "score": 72,
+      "confidence": "high",
+      "key_finding": "A congressionally-mandated graphic cigarette warning rule has been delayed at least 7 times over 2+ years through industry litigation, with FDA appearing to offer minimal resistance to postponements that directly benefit tobacco manufacturers at the expense of public health."
+    },
+    {
+      "docket_id": "HHS-OS-2020-0012",
+      "title": "Withdrawing Rule on Securing Updated and Necessary Statutory Evaluations Timely",
+      "pub_date": "2022-05-27",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "high",
+      "key_finding": "This rule PROTECTS against regulatory capture by withdrawing the SUNSET rule, which would have automatically eliminated FDA consumer protections if not reviewed on an unrealistic timeline\u2014a mechanism that would have favored industry by creating regulatory gaps."
+    },
+    {
+      "docket_id": "FDA-2020-N-1663",
+      "title": "National Standards for the Licensure of Wholesale Drug Distributors and Third-Party Logistics Providers; Extension of Comment Period",
+      "pub_date": "2022-05-24",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "low",
+      "key_finding": "This procedural notice extending a comment period contains minimal evidence of regulatory capture; the underlying licensure standards rule appears designed to strengthen supply chain oversight rather than weaken it."
+    },
+    {
+      "docket_id": "FDA-2018-N-1815",
+      "title": "Beverages: Bottled Water",
+      "pub_date": "2022-04-20",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "high",
+      "key_finding": "This rule represents genuine public health protection by tightening fluoride standards rather than regulatory capture, as it lowers allowable fluoride levels in bottled water consistent with updated scientific recommendations despite potential industry preference for maintaining looser standards."
+    },
+    {
+      "docket_id": "HHS-OS-2020-0012",
+      "title": "Securing Updated and Necessary Statutory Evaluations Timely; Administrative Delay of Effective Date",
+      "pub_date": "2022-03-04",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This administrative delay rule is procedural in nature, responding to litigation rather than industry pressure, and actually preserves existing public health regulations by blocking automatic expiration mechanisms."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements; Delayed Effective Date",
+      "pub_date": "2022-03-01",
+      "agency": "FDA",
+      "score": 62,
+      "confidence": "medium",
+      "key_finding": "A congressionally-mandated cigarette warning label rule has been delayed at least 6 times over nearly 3 years through industry litigation, with FDA's passive acceptance of repeated postponements suggesting inadequate defense of public health priorities against tobacco industry legal strategy."
+    },
+    {
+      "docket_id": "FDA-2020-N-1663",
+      "title": "National Standards for the Licensure of Wholesale Drug Distributors and Third-Party Logistics Providers",
+      "pub_date": "2022-02-04",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "low",
+      "key_finding": "The provided excerpt contains only procedural/administrative content (comment submission instructions) and lacks substantive regulatory text needed to assess capture signals; the rule itself appears oriented toward supply chain security protections mandated by Congress."
+    },
+    {
+      "docket_id": "FDA-2020-N-1519",
+      "title": "Revocation of the Regulations for Human Tissue Intended for Transplantation and Human Dura Mater",
+      "pub_date": "2022-01-13",
+      "agency": "FDA",
+      "score": 10,
+      "confidence": "high",
+      "key_finding": "This rule represents legitimate regulatory housekeeping to remove obsolete provisions with no current applicability, rather than industry-driven weakening of active consumer protections."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements; Delayed Effective Date",
+      "pub_date": "2021-12-09",
+      "agency": "FDA",
+      "score": 65,
+      "confidence": "medium",
+      "key_finding": "Tobacco industry litigation has successfully delayed congressionally-mandated graphic cigarette warning labels for over 13 years since the 2009 Tobacco Control Act, with FDA passively accepting serial postponements that continue to protect industry from enhanced health disclosures."
+    },
+    {
+      "docket_id": "HHS-OS-2020-0012",
+      "title": "Securing Updated and Necessary Statutory Evaluations Timely; Proposal To Withdraw or Repeal",
+      "pub_date": "2021-10-29",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This rule represents an ANTI-capture action: HHS is proposing to withdraw a Trump-era deregulatory mechanism (SUNSET rule) that could have automatically eliminated FDA consumer protections beneficial to regulated industries."
+    },
+    {
+      "docket_id": "FDA-2021-N-0555",
+      "title": "Medical Devices; Ear, Nose, and Throat Devices; Establishing Over-the-Counter Hearing Aids",
+      "pub_date": "2021-10-20",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to be a pro-consumer, pro-competition measure mandated by Congress that disrupts incumbent hearing aid industry gatekeeping rather than an example of regulatory capture\u2014traditional hearing aid manufacturers and audiologists actually opposed this deregulation."
+    },
+    {
+      "docket_id": "FDA-2019-N-2854",
+      "title": "Premarket Tobacco Product Applications and Recordkeeping Requirements",
+      "pub_date": "2021-10-05",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule appears to strengthen rather than weaken tobacco regulation by codifying premarket authorization requirements, though the reliance on manufacturer-maintained records for compliance documentation represents a moderate self-reporting element."
+    },
+    {
+      "docket_id": "FDA-2018-N-0236",
+      "title": "Medical Device De Novo Classification Process",
+      "pub_date": "2021-10-05",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule primarily codifies congressionally-mandated procedures rather than representing agency-level capture; while it does streamline industry pathways, it maintains substantive FDA review authority and implements bipartisan legislation."
+    },
+    {
+      "docket_id": "FDA-2016-N-3818",
+      "title": "Content and Format of Substantial Equivalence Reports; Food and Drug Administration Actions on Substantial Equivalence Reports",
+      "pub_date": "2021-10-05",
+      "agency": "FDA",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "This rule formalizes the tobacco industry's preferred substantial equivalence pathway, which allows new products to reach market by comparison to existing products rather than independent safety review, though it does establish clearer procedural requirements for FDA oversight."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements; Delayed Effective Date",
+      "pub_date": "2021-09-13",
+      "agency": "FDA",
+      "score": 58,
+      "confidence": "medium",
+      "key_finding": "The tobacco industry has successfully used litigation in a plaintiff-friendly venue to achieve serial delays of graphic cigarette warning requirements, with FDA publishing repeated postponements rather than aggressively defending implementation of a Congressionally-mandated public health measure."
+    },
+    {
+      "docket_id": "FDA-2015-N-2002",
+      "title": "Regulations Regarding \u201cIntended Uses\u201d",
+      "pub_date": "2021-08-02",
+      "agency": "FDA",
+      "score": 68,
+      "confidence": "medium",
+      "key_finding": "The withdrawal of a never-implemented 2017 rule and its replacement after six years of rulemaking, combined with 'safe harbor' provisions, strongly suggests industry successfully lobbied to weaken FDA's ability to regulate off-label promotion through intended use determinations."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements; Delayed Effective Date",
+      "pub_date": "2021-07-12",
+      "agency": "FDA",
+      "score": 58,
+      "confidence": "medium",
+      "key_finding": "While this specific rule is a procedural response to court orders rather than direct FDA capture, the pattern of repeated delays through industry litigation represents a systemic capture mechanism that has kept congressionally-mandated graphic cigarette warnings off packages for over a decade."
+    },
+    {
+      "docket_id": "FDA-2005-N-0464",
+      "title": "Requirements for Foreign and Domestic Establishment Registration and Listing for Human Drugs, Including Drugs That Are Regulated Under a Biologics License Application, and Animal Drugs; Corrections",
+      "pub_date": "2021-04-01",
+      "agency": "FDA",
+      "score": 5,
+      "confidence": "high",
+      "key_finding": "This is a purely technical correction fixing cross-reference errors in regulatory text, with no substantive policy changes that would indicate regulatory capture or industry influence."
+    },
+    {
+      "docket_id": "HHS-OS-2020-0012",
+      "title": "Securing Updated and Necessary Statutory Evaluations Timely; Administrative Delay of Effective Date; Correction",
+      "pub_date": "2021-03-23",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "high",
+      "key_finding": "This rule delays a potentially industry-favorable mass-deregulation mechanism (SUNSET rule), representing a corrective action against regulatory capture rather than an example of it."
+    },
+    {
+      "docket_id": "HHS-OS-2020-0012",
+      "title": "Securing Updated and Necessary Statutory Evaluations Timely",
+      "pub_date": "2021-01-19",
+      "agency": "FDA",
+      "score": 82,
+      "confidence": "high",
+      "key_finding": "This rule creates an unprecedented automatic expiration mechanism for FDA health and safety regulations, effectively weaponizing administrative burden to achieve mass deregulation favorable to pharmaceutical, food, and device manufacturers without requiring case-by-case justification."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements; Delayed Effective Date",
+      "pub_date": "2021-01-15",
+      "agency": "FDA",
+      "score": 55,
+      "confidence": "medium",
+      "key_finding": "While FDA is nominally following court orders, the tobacco industry successfully used litigation in a plaintiff-friendly Texas court to delay graphic warning requirements by nearly two years, continuing a pattern of obstruction that has kept these warnings off U.S. cigarettes for over a decade after Congress mandated them."
+    },
+    {
+      "docket_id": "FDA-2020-N-1519",
+      "title": "Revocation of the Regulations for Human Tissue Intended for Transplantation and Human Dura Mater",
+      "pub_date": "2020-12-21",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This appears to be a legitimate housekeeping measure removing genuinely obsolete regulations for tissue recovered before 2005, though the explicit deregulatory mandate framing under EO 13771/13777 warrants scrutiny to ensure public health isn't subordinated to burden reduction goals."
+    },
+    {
+      "docket_id": "FDA-2014-N-0053",
+      "title": "Requirements for Additional Traceability Records for Certain Foods; Extension of Comment Period; Reopening of the Comment Period",
+      "pub_date": "2020-12-18",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This procedural extension document shows modest industry influence through comment period delays requested by unnamed 'stakeholders,' but does not itself weaken the substantive food traceability protections in the underlying proposed rule."
+    },
+    {
+      "docket_id": "Docket Number HHS-OS-2020-0015",
+      "title": "Regulatory Clean Up Initiative; Correction",
+      "pub_date": "2020-12-17",
+      "agency": "FDA",
+      "score": 8,
+      "confidence": "high",
+      "key_finding": "This rule is a routine administrative correction fixing typographical errors and footnote designations, containing no substantive policy changes that would indicate regulatory capture."
+    },
+    {
+      "docket_id": "Docket Number HHS-OS-2020-0015",
+      "title": "Regulatory Clean Up Initiative",
+      "pub_date": "2020-11-16",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This appears to be a genuine administrative clean-up rule with minimal capture indicators; however, the broad scope and AI-assisted bulk processing warrant verification that individual amendments are truly non-substantive as claimed."
+    },
+    {
+      "docket_id": "FDA-2019-N-5711",
+      "title": "Importation of Prescription Drugs",
+      "pub_date": "2020-10-01",
+      "agency": "FDA",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "While ostensibly enabling drug importation to lower consumer costs, the rule's complex state-sponsored program requirements and Canada-only limitation create substantial procedural barriers that may protect domestic pharmaceutical pricing power while appearing responsive to consumer concerns."
+    },
+    {
+      "docket_id": "FDA-2015-N-2002",
+      "title": "Regulations Regarding \u201cIntended Uses\u201d",
+      "pub_date": "2020-09-23",
+      "agency": "FDA",
+      "score": 72,
+      "confidence": "medium",
+      "key_finding": "FDA is formally withdrawing a 2017 consumer protection rule on intended uses that industry successfully blocked from implementation, replacing it with regulations framed around providing 'clarity' to regulated industry."
+    },
+    {
+      "docket_id": "FDA-2014-N-0053",
+      "title": "Requirements for Additional Traceability Records for Certain Foods",
+      "pub_date": "2020-09-23",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This proposed rule appears to be a genuine public health protection implementing FSMA mandates, with no significant capture signals visible in the excerpt provided\u2014it establishes mandatory (not voluntary) traceability requirements to protect consumers from foodborne illness outbreaks."
+    },
+    {
+      "docket_id": "FDA-2017-N-6381",
+      "title": "Postmarketing Safety Reports for Approved New Animal Drugs; Electronic Submission Requirements; Correction",
+      "pub_date": "2020-09-22",
+      "agency": "FDA",
+      "score": 12,
+      "confidence": "high",
+      "key_finding": "This is a technical correction to fix table errors in a rule that actually strengthens safety oversight by mandating electronic submission of postmarketing safety reports, showing no meaningful signs of regulatory capture."
+    },
+    {
+      "docket_id": "FDA-2019-N-5553",
+      "title": "Annual Summary Reporting Requirements Under the Right To Try Act; Correction",
+      "pub_date": "2020-09-10",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This is a minor technical correction to cost figures in a proposed rule, not a substantive regulatory action; any capture concerns relate to the underlying Right to Try Act framework (which was congressionally mandated) rather than this specific FDA correction notice."
+    },
+    {
+      "docket_id": "FDA-2014-N-1021",
+      "title": "Food Labeling; Gluten-Free Labeling of Fermented or Hydrolyzed Foods; Correction",
+      "pub_date": "2020-09-09",
+      "agency": "FDA",
+      "score": 5,
+      "confidence": "high",
+      "key_finding": "This is a routine administrative correction of typographical errors and date inconsistencies in a consumer protection rule, showing no meaningful signs of regulatory capture."
+    },
+    {
+      "docket_id": "FDA-2014-N-1021",
+      "title": "Food Labeling; Gluten-Free Labeling of Fermented or Hydrolyzed Foods",
+      "pub_date": "2020-08-13",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "high",
+      "key_finding": "This rule strengthens rather than weakens consumer protection for celiac patients by closing a labeling gap; the records-based compliance approach reflects genuine scientific limitations in gluten detection for fermented foods rather than industry capture."
+    },
+    {
+      "docket_id": "FDA-2018-N-4268",
+      "title": "Submission of Food and Drug Administration Import Data in the Automated Commercial Environment for Veterinary Devices",
+      "pub_date": "2020-08-03",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "high",
+      "key_finding": "This rule strengthens rather than weakens regulatory oversight by extending existing import data requirements to veterinary devices that were previously exempt, showing no meaningful signs of regulatory capture."
+    },
+    {
+      "docket_id": "FDA-2017-N-6381",
+      "title": "Postmarketing Safety Reports for Approved New Animal Drugs; Electronic Submission Requirements",
+      "pub_date": "2020-07-29",
+      "agency": "FDA",
+      "score": 15,
+      "confidence": "medium",
+      "key_finding": "This rule appears to strengthen rather than weaken FDA oversight by mandating electronic submission of safety reports, improving data collection efficiency with minimal signs of regulatory capture."
+    },
+    {
+      "docket_id": "FDA-2019-N-5553",
+      "title": "Annual Summary Reporting Requirements Under the Right to Try Act",
+      "pub_date": "2020-07-24",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "This rule implements congressionally-mandated Right to Try reporting requirements with FDA adding modest regulatory structure; the underlying statutory framework (not this rule) reflects the more significant policy shift toward reduced FDA gatekeeping over experimental drug access."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements; Delayed Effective Date",
+      "pub_date": "2020-05-29",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "FDA agreed to a joint motion with tobacco industry plaintiffs to delay graphic warning label requirements by 120 days, using COVID-19 as justification, though the substantive public health requirements remain unchanged."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements",
+      "pub_date": "2020-03-18",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This rule represents a genuine public health protection measure mandating graphic cigarette warnings, though the decade-long delay from the 2009 Tobacco Control Act to 2020 final rule suggests historical industry resistance successfully postponed implementation (noting prior litigation by tobacco companies that struck down earlier FDA warnings in 2012)."
+    },
+    {
+      "docket_id": "FDA-2019-N-2854",
+      "title": "Premarket Tobacco Product Applications and Recordkeeping Requirements; Reopening of the Comment Period",
+      "pub_date": "2020-03-10",
+      "agency": "FDA",
+      "score": 22,
+      "confidence": "medium",
+      "key_finding": "This is a routine procedural action to solicit comments on a new administrative form, with minimal evidence of regulatory capture; the underlying PMTA framework requiring premarket review of tobacco products remains intact."
+    },
+    {
+      "docket_id": "FDA-1995-N-0062 (Formerly 1995N-0294)",
+      "title": "Food Standards; General Principles and Food Standards Modernization; Reopening of the Comment Period",
+      "pub_date": "2020-02-21",
+      "agency": "FDA",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "The 15-25 year delay in finalizing food standards modernization, combined with authority to eliminate standards, suggests regulatory stagnation that preserves industry-favorable status quo while creating future deregulatory pathways."
+    },
+    {
+      "docket_id": "FDA-2019-N-5711",
+      "title": "Importation of Prescription Drugs",
+      "pub_date": "2019-12-23",
+      "agency": "FDA",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "While ostensibly enabling drug importation to lower costs, the rule's complex state-based authorization process, narrow scope, and burden-of-proof requirements create structural barriers that protect pharmaceutical industry pricing power more than a direct importation pathway would."
+    },
+    {
+      "docket_id": "FDA-2019-N-2854",
+      "title": "Premarket Tobacco Product Applications and Recordkeeping Requirements; Reopening of the Comment Period",
+      "pub_date": "2019-11-26",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "low",
+      "key_finding": "This procedural notice simply extends a comment period, which is a routine administrative action with minimal evidence of regulatory capture, though the anonymous extension request warrants monitoring of the final rule."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements; Additional Materials; Reopening of the Comment Period",
+      "pub_date": "2019-11-12",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "low",
+      "key_finding": "This procedural notice to reopen comments on cigarette warning labels shows limited capture signals; the short 15-day comment window could favor industry, but the underlying rule itself represents a public health protection measure."
+    },
+    {
+      "docket_id": "FDA-2011-F-0171",
+      "title": "Food Labeling: Calorie Labeling of Articles of Food Sold From Certain Vending Machines; Front of Package Type Size",
+      "pub_date": "2019-10-28",
+      "agency": "FDA",
+      "score": 45,
+      "confidence": "medium",
+      "key_finding": "This rule represents a modest relaxation of vending machine calorie labeling type size requirements framed primarily around reducing industry burden, though it maintains the core consumer protection of visible calorie disclosure."
+    },
+    {
+      "docket_id": "FDA-2019-N-2854",
+      "title": "Premarket Tobacco Product Applications and Recordkeeping Requirements",
+      "pub_date": "2019-09-25",
+      "agency": "FDA",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "While the rule establishes meaningful premarket review requirements for tobacco products, the self-certification recordkeeping approach and alternative submission pathways for modifications suggest some accommodation of industry preferences, though the core framework remains protective of public health."
+    },
+    {
+      "docket_id": "FDA-2019-N-3065",
+      "title": "Tobacco Products; Required Warnings for Cigarette Packages and Advertisements",
+      "pub_date": "2019-08-16",
+      "agency": "FDA",
+      "score": 20,
+      "confidence": "medium",
+      "key_finding": "This rule represents a genuine public health protection effort to implement congressionally-mandated graphic cigarette warnings, though the nearly decade-long delay since the statutory mandate raises some concern about regulatory prioritization."
+    },
+    {
+      "docket_id": "FDA-2016-N-3818",
+      "title": "Content and Format of Substantial Equivalence Reports; Food and Drug Administration Actions on Substantial Equivalence Reports; Extension of Comment Period",
+      "pub_date": "2019-06-13",
+      "agency": "FDA",
+      "score": 25,
+      "confidence": "low",
+      "key_finding": "This excerpt contains only procedural information about a comment period extension and provides insufficient substantive content to assess whether the underlying rule reflects regulatory capture; the extension itself is a minor signal that could benefit industry but is a common administrative practice."
+    },
+    {
+      "docket_id": "2026-02866",
+      "title": "Revision of the Negative Option Rule, Withdrawal of the CARS Rule, Removal of the Non-Compete Rule To Conform These Rules to Federal Court Decisions",
+      "pub_date": "2026-02-12",
+      "agency": "FTC",
+      "score": 85,
+      "confidence": "high",
+      "key_finding": "The FTC is simultaneously withdrawing or rolling back three major consumer protection rules affecting subscriptions, auto sales, and non-compete clauses following industry-initiated litigation, representing a significant deregulatory victory for technology, retail, financial services, and automotive industries."
+    },
+    {
+      "docket_id": "2023-26966",
+      "title": "Care Labeling Rule",
+      "pub_date": "2023-12-08",
+      "agency": "FTC",
+      "score": 35,
+      "confidence": "medium",
+      "key_finding": "The termination of a 12-year rulemaking process without finalizing updates suggests potential industry influence or deprioritization, but the underlying Care Labeling Rule remains intact, limiting the capture impact."
+    },
+    {
+      "docket_id": "2020-19515",
+      "title": "Rules and Regulations Under the Textile Fiber Products Identification Act",
+      "pub_date": "2020-10-06",
+      "agency": "FTC",
+      "score": 15,
+      "confidence": "high",
+      "key_finding": "This is a routine administrative update incorporating current ISO standards for fiber naming conventions, with no evidence of regulatory capture\u2014the rule expands rather than weakens labeling requirements, and the listed 'regulated industries' (technology, retail, financial services, automotive) appear to be a metadata error unrelated to the actual textile labeling rule."
+    },
+    {
+      "docket_id": "2020-02759",
+      "title": "Rules and Regulations Under the Textile Fiber Products Identification Act",
+      "pub_date": "2020-02-18",
+      "agency": "FTC",
+      "score": 15,
+      "confidence": "high",
+      "key_finding": "This is a routine technical standards update to textile labeling rules with no meaningful signs of regulatory capture\u2014the rule maintains consumer protections while harmonizing with international standards, and the listed 'regulated industries' (technology, financial services, automotive) appear to be metadata errors unrelated to the actual textile rule."
+    },
+    {
+      "docket_id": "2017-13470",
+      "title": "Rules and Regulations Under the Textile Fiber Products Identification Act",
+      "pub_date": "2017-06-28",
+      "agency": "FTC",
+      "score": 25,
+      "confidence": "medium",
+      "key_finding": "This appears to be a minor administrative streamlining of trademark filing procedures rather than substantive regulatory capture, as core consumer protection labeling requirements remain intact and the eliminated requirement provided marginal consumer benefit."
+    }
+  ]
+}

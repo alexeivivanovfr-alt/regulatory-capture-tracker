@@ -1,0 +1,33 @@
+Regulatory Capture Tracker
+RULES
+REVOLVING DOOR
+SCOREBOARD
+—
+RULES TRACKED
+—
+HIGH RISK RULES
+—
+INDUSTRIES
+—
+REVOLVING DOOR
+—
+LOBBYING CONNECTIONS
+AGENCY
+All
+FAA
+EPA
+RISK LEVEL
+All
+🔴 High (60+)
+🟡 Medium+ (30+)
+COMPANY
+          All Companies
+        
+REVOLVING DOOR
+Show only rules with revolving door connections
+POLITICIAN
+          All Politicians
+        
+
+
+Loading rules...

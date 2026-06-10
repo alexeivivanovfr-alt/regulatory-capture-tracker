@@ -1,0 +1,102 @@
+[
+  {
+    "date": "2026-06-04",
+    "agency": "FAA",
+    "title": "Airworthiness Directives; Rolls-Royce Deutschland Ltd & Co KG Engines",
+    "score": 35,
+    "key_finding": "While the AD increases in-shop inspection intervals (potentially reducing operator burden), it simultaneously adds new on-wing inspection requirements, suggesting a technically-justified rebalancing of safety oversight rather than a pure industry-favorable rollback.",
+    "citation": "91 FR 33604",
+    "docket_id": "FAA-2026-0742",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-06-08",
+    "agency": "EPA",
+    "title": "Approval and Promulgation of Air Quality Implementation Plans; Wyoming; Regional Haze Federal Implementation Plan",
+    "score": 78,
+    "key_finding": "EPA is withdrawing a closure requirement and weakening NOx emissions controls for a coal power plant at the direct request of the plant owner (PacifiCorp), reversing previously established BART determinations based on the company's withdrawal of consent.",
+    "citation": "91 FR 34589",
+    "docket_id": "EPA-R08-OAR-2026-1651",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-06-08",
+    "agency": "EPA",
+    "title": "Air Plan Approval; Minnesota; Revision to Taconite Federal Implementation Plan",
+    "score": 58,
+    "key_finding": "Rule contains industry-favorable elements including extended compliance timelines (3-5 years), a built-in mechanism allowing U.S. Steel to petition for weaker emission limits (up to 25% higher than proposed), and use of 720-hour rolling averages that smooth out emission spikes.",
+    "citation": "91 FR 34574",
+    "docket_id": "EPA-R05-OAR-2024-2016",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-06-05",
+    "agency": "EPA",
+    "title": "Louisiana: Approval of State Coal Combustion Residuals Permit Program",
+    "score": 58,
+    "key_finding": "Transfer of CCR oversight from federal EPA to Louisiana state regulators raises concerns given Louisiana's historically industry-friendly regulatory environment and fossil fuel sector influence, though the 'partial approval' structure suggests some federal safeguards may remain.",
+    "citation": "91 FR 34189",
+    "docket_id": "EPA-HQ-OLEM-2025-3324",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-06-03",
+    "agency": "EPA",
+    "title": "Amending the Administrative Hearing Procedures for Claims Against the Hazardous Substance Superfund Pursuant to the Comprehensive Environmental Response, Compensation, and Liability Act",
+    "score": 25,
+    "key_finding": "The rule text provided only contains procedural/administrative information about comment submission and does not reveal substantive changes to hearing procedures that would indicate industry-favorable modifications to Superfund claim processes.",
+    "citation": "91 FR 33135",
+    "docket_id": "EPA-HQ-OLEM-2026-2048",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-06-03",
+    "agency": "EPA",
+    "title": "Rescinding the Regulations for Arbitration Requirements and Procedures for Small Superfund Cost Recovery Claims",
+    "score": 62,
+    "key_finding": "Rescinding CERCLA arbitration procedures for small cost recovery claims removes a streamlined mechanism for EPA to recover cleanup costs from polluters, potentially benefiting fossil fuel and chemical companies by making cost recovery more burdensome and less likely to be pursued for smaller claims.",
+    "citation": "91 FR 33133",
+    "docket_id": "EPA-HQ-OLEM-2026-2047",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-06-10",
+    "agency": "FDA",
+    "title": "Medical Devices; Ear, Nose, and Throat Devices; Classification of the Combined Acoustic and Electrical External Stimulation Device for the Relief of Tinnitus",
+    "score": 42,
+    "key_finding": "Classification of a novel tinnitus device into Class II rather than Class III reduces premarket approval requirements, framed as reducing 'regulatory burdens' and enhancing 'patient access,' though special controls are retained and the action follows standard De Novo classification pathways.",
+    "citation": "91 FR 35138",
+    "docket_id": "FDA-2026-N-6010",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-06-05",
+    "agency": "FDA",
+    "title": "Medical Devices; Orthopedic Devices; Classification of the Resorbable Calcium Salt Bone Void Filler Containing a Single Approved Aminoglycoside Antibacterial",
+    "score": 42,
+    "key_finding": "Reclassification from Class III to Class II reduces premarket approval burden to 510(k) clearance for antibiotic-containing bone fillers, which could benefit manufacturers but appears to follow standard De Novo pathway with specific special controls maintained.",
+    "citation": "91 FR 34148",
+    "docket_id": "FDA-2026-N-5195",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-06-05",
+    "agency": "FDA",
+    "title": "Medical Devices; Orthopedic Devices; Classification of the Shoulder Joint Humeral (Hemi-Shoulder) Ceramic Head/Metallic Stem Cemented or Uncemented Prosthesis",
+    "score": 42,
+    "key_finding": "Reclassification from Class III to Class II reduces regulatory burden by replacing premarket approval with 510(k) clearance, using standard 'innovation access' framing, though special controls are maintained and the change follows established De Novo pathways.",
+    "citation": "91 FR 34152",
+    "docket_id": "FDA-2026-N-5830",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-06-05",
+    "agency": "FDA",
+    "title": "Medical Devices; Orthopedic Devices; Classification of the Absorbable Metallic Bone Fixation Fastener",
+    "score": 42,
+    "key_finding": "Reclassification from Class III to Class II reduces premarket approval requirements to special controls/510(k) pathway, which could benefit device manufacturers but appears technically justified for this specific absorbable metallic fastener device type with established safety profiles.",
+    "citation": "91 FR 34146",
+    "docket_id": "FDA-2026-N-5962",
+    "confidence": "medium"
+  }
+]
