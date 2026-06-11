@@ -201,3 +201,8 @@ def get_scoreboard():
 @app.get("/")
 def serve_frontend():
     return FileResponse("api/index.html")
+
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
